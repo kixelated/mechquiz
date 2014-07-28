@@ -11,7 +11,46 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <div class="keeper" id="questions"></div>
+    <div class="keeper">
+      <div id="score" style="display: none">
+        <div class="wrapper">
+          Score: <span class="value">0</span> <span class="change"></span>
+        </div>
+      </div>
+      <div id="questions"></div>
+
+      <div id="instructions">
+        <div id="difficulties">
+          <div class="easy difficulty" data-value="easy">Easy</div>
+          <div class="normal difficulty" data-value="normal">Normal</div>
+          <div class="unfair difficulty" data-value="unfair">Unfair</div>
+        </div>
+
+        <p>
+          This quiz will test your knowledge of item and spell interactions in Dota 2. Each question will focus on two items or spells, and you must choose which of the two takes priority. The more difficult questions will have additional options as only some of the effects will occur.
+        </p>
+
+        <p>
+          For example:
+
+          <div class="example question">
+            <div class="option icon correct" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/items/black_king_bar_lg.png')"></div>
+            <div class="option icon incorrect" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/abilities/sven_storm_bolt_hp1.png')"></div>
+            <div class="explanation">
+              Storm Bolt is blocked by Black King Bar.
+            </div>
+          </div>
+
+          <div class="example question">
+            <div class="option icon incorrect" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/items/black_king_bar_lg.png')"></div>
+            <div class="option icon correct" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/abilities/doom_bringer_doom_hp1.png')"></div>
+            <div class="explanation">
+              Doom completely bypasses Black King Bar.
+            </div>
+          </div>
+        </p>
+      </div>
+    </div>
 
     <script src="js/vendor/jquery-2.1.1.min.js"></script>
     <script src="js/vendor/underscore-min.js"></script>

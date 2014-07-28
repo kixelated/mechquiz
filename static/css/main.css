@@ -15,6 +15,43 @@ body {
 
   text-align: center;
   font-size: 12px;
+
+  overflow: hidden;
+}
+
+.difficulty {
+  display: inline-block;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+
+  text-align: center;
+  font-size: 18px;
+
+  margin: 6px;
+  padding: 4px 12px;
+
+  cursor: pointer;
+
+  box-shadow: 1px 1px 3px 1px #000;
+}
+
+.difficulty.easy {
+  border-color: #180 #160 #160 #180;
+}
+
+.difficulty.normal {
+  border-color: #880 #660 #660 #880;
+}
+
+.difficulty.unfair {
+  border-color: #810 #610 #610 #810;
+}
+
+#score {
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .question {
@@ -40,7 +77,7 @@ body {
   cursor: pointer;
 }
 
-.option.icon {
+.icon {
   width: 85px;
   height: 64px;
 
@@ -51,6 +88,19 @@ body {
   background-position: 50% 50%;
 }
 
+.example {
+  display: inline-block;
+  width: 33%;
+}
+
+.example .icon {
+  width: 42px;
+  height: 32px;
+
+  font-size: 24px;
+  line-height: 32px;
+}
+
 .option.text {
   padding: 4px 8px;
 }
@@ -59,7 +109,7 @@ body {
   border-color: #999 #777 #777 #999;
 }
 
-.correct {
+.correct, .correct:hover {
   background-color: #040;
   border-color: #180 #160 #160 #180;
 }
@@ -74,7 +124,7 @@ body {
   padding-right: 6px;
 }
 
-.incorrect {
+.incorrect, .incorrect:hover {
   background-color: #400;
   border-color: #810 #610 #610 #810;
 }
@@ -90,8 +140,8 @@ body {
 }
 
 .explanation {
+  display: block;
   border-top: 1px solid #444;
-  display: none;
 
   margin: 12px;
   padding: 12px;
