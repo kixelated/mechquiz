@@ -1,9 +1,24 @@
 {
   "questions": [
     {
+      "options": [ "item/black_king_bar", "ability/alchemist_acid_spray", "text/no_damage", "text/no_armor_reduction" ],
+      "answer": "text/no_armor_reduction",
+      "difficulty": "hard"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/ancient_apparition_ice_blast", "text/no_damage", "text/no_healing_disable", "text/no_shatter" ],
       "answer": "text/no_damage",
       "difficulty": "unfair"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/axe_berserkers_call" ],
+      "answer": "ability/axe_berserkers_call",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/antimage_mana_break" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/antimage_mana_void", "text/damage_only", "text/stun_only" ],
@@ -26,6 +41,11 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/beastmaster_wild_axes" ],
+      "answer": "ability/beastmaster_wild_axes",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/beastmaster_primal_roar", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
@@ -41,9 +61,34 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/brewmaster_thunder_clap", "text/damage_only", "text/slow_only" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/bristleback_quill_spray" ],
+      "answer": "ability/bristleback_quill_spray",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/centaur_stampede", "text/damage_only", "text/slow_only" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/clinkz_searing_arrows" ],
+      "answer": "ability/clinkz_searing_arrows",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/rattletrap_hookshot", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/chaos_knight_reality_rift" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/crystal_maiden_freezing_field", "text/damage_only", "text/slow_only" ],
@@ -66,19 +111,29 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/disruptor_glimpse" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/disruptor_static_storm", "text/damage_only", "text/silence_only" ],
       "answer": "item/black_king_bar",
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/doom_bringer_doom" ],
+      "options": [ "item/black_king_bar", "ability/doom_bringer_doom", "text/damage_only", "text/disable_only" ],
       "answer": "ability/doom_bringer_doom",
-      "difficulty": "easy"
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/earth_spirit_magnetize" ],
       "answer": "item/black_king_bar",
       "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/earth_spirit_rolling_boulder", "text/damage_only", "text/slow_only" ],
+      "answer": "text/slow_only",
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/earthshaker_echo_slam", "text/initial_damage_only", "text/echo_damage_only" ],
@@ -96,6 +151,11 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/ember_spirit_searing_chains", "text/damage_only", "text/stun_only" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/enchantress_impetus" ],
       "answer": "item/black_king_bar",
       "difficulty": "easy"
@@ -104,6 +164,11 @@
       "options": [ "item/black_king_bar", "ability/enigma_black_hole", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/enigma_midnight_pulse" ],
+      "answer": "ability/enigma_midnight_pulse",
+      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/faceless_void_chronosphere" ],
@@ -121,8 +186,18 @@
       "difficulty": "normal"
     },
     {
+      "options": [ "item/black_king_bar", "ability/invoker_sun_strike" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/jakiro_macropyre" ],
       "answer": "item/black_king_bar",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/juggernaut_blade_fury" ],
+      "answer": "ability/juggernaut_blade_fury",
       "difficulty": "easy"
     },
     {
@@ -136,8 +211,18 @@
       "difficulty": "normal"
     },
     {
+      "options": [ "item/black_king_bar", "ability/kunkka_tidebringer" ],
+      "answer": "ability/kunkka_tidebringer",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/legion_commander_duel" ],
       "answer": "ability/legion_commander_duel",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/leshrac_diabolic_edict" ],
+      "answer": "ability/leshrac_diabolic_edict",
       "difficulty": "easy"
     },
     {
@@ -151,9 +236,14 @@
       "difficulty": "unfair"
     },
     {
-      "options": [ "item/black_king_bar", "ability/life_stealer_consume" ],
+      "options": [ "item/black_king_bar", "ability/life_stealer_infest" ],
       "answer": "item/black_king_bar",
       "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/life_stealer_open_wounds", "text/slow_only", "text/lifesteal_only" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/lina_laguna_blade" ],
@@ -181,6 +271,11 @@
       "difficulty": "normal"
     },
     {
+      "options": [ "item/black_king_bar", "ability/naga_siren_ensnare" ],
+      "answer": "ability/naga_siren_ensnare",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/naga_siren_song_of_the_siren" ],
       "answer": "item/black_king_bar",
       "difficulty": "easy"
@@ -206,6 +301,11 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/omniknight_purification" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/phoenix_supernova", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
@@ -221,9 +321,19 @@
       "difficulty": "normal"
     },
     {
+      "options": [ "item/black_king_bar", "ability/pudge_meat_hook", "text/damage_only", "text/pull_only" ],
+      "answer": "text/pull_only",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/pugna_life_drain" ],
       "answer": "item/black_king_bar",
       "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/pugna_nether_ward", "text/damage_only", "text/mana_degen_only" ],
+      "answer": "text/mana_degen_only",
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/queenofpain_sonic_wave" ],
@@ -234,6 +344,11 @@
       "options": [ "item/black_king_bar", "ability/razor_eye_of_the_storm", "text/no_damage", "text/no_armor_reduction" ],
       "answer": "ability/razor_eye_of_the_storm",
       "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/razor_static_link" ],
+      "answer": "ability/razor_static_link",
+      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/rubick_spell_steal" ],
@@ -266,12 +381,32 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/slardar_bash", "text/damage_only", "text/stun_only" ],
+      "answer": "text/stun_only",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/slardar_amplify_damage" ],
       "answer": "ability/slardar_amplify_damage",
       "difficulty": "normal"
     },
     {
+      "options": [ "item/black_king_bar", "ability/slark_pounce", "text/damage_only", "text/stun_only" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/sniper_assassinate", "text/damage_only", "text/stun_only" ],
+      "answer": "text/stun_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/sniper_headshot", "text/damage_only", "text/stun_only" ],
+      "answer": "text/stun_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/spirit_breaker_greater_bash", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
     },
@@ -291,6 +426,11 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/tidehunter_anchor_smash", "text/damage_only", "text/damage_reduction_only" ],
+      "answer": "ability/tidehunter_anchor_smash",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/tidehunter_ravage", "text/damage_only", "text/stun_only" ],
       "answer": "item/black_king_bar",
       "difficulty": "normal"
@@ -298,6 +438,21 @@
     {
       "options": [ "item/black_king_bar", "ability/shredder_chakram", "text/damage_only", "text/slow_only" ],
       "answer": "item/black_king_bar",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/tinker_laser" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/tinker_march_of_the_machines" ],
+      "answer": "ability/tinker_march_of_the_machines",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/tiny_toss", "text/damage_only", "text/throw_only" ],
+      "answer": "text/throw_only",
       "difficulty": "normal"
     },
     {
@@ -329,6 +484,11 @@
       "options": [ "item/black_king_bar", "ability/viper_viper_strike", "text/damage_only", "text/slow_only" ],
       "answer": "text/slow_only",
       "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/warlock_fatal_bonds" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/warlock_rain_of_chaos", "text/damage_only", "text/stun_only" ],

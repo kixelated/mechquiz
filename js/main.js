@@ -62,6 +62,8 @@
         if (option == question.answer) {
           odom.addClass("answer");
         }
+      } else {
+        console.log("unknown type " + type);
       }
     });
 
