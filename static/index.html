@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="keeper">
+      <div id="question-template">
+        <div class="table">
+          <div>
+            <div class="option icon incorrect" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/items/black_king_bar_lg.png')"></div>
+            <div class="caption">Black King Bar</div>
+          </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+          <div>
+            <div class="option text">Damage Only</div>
+            <div class="option text correct">Stun Only</div>
+          </div>
+
+          <div>
+            <div class="option icon" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/abilities/antimage_mana_void_hp1.png')"></div>
+            <div class="caption">Mana Void</div>
+          </div>
+        </div>
+
+        <div class="explanation">
+          The stun goes through BKB but the damage does not.
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery-2.1.1.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

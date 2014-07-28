@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "options": [ "item/black_king_bar", "spell/antimage_mana_void", "text/damage_only", "text/stun_only" ],
+      "answer": "stun_only"
+    },
+    {
+      "options": [ "item/black_king_bar", "spell/axe_culling_blade" ],
+      "answer": "spell/axe_culling_blade"
+    },
+    {
+      "options": [ "item/black_king_bar", "spell/antimage_mana_break" ],
+      "answer": "item/black_king_bar"
+    }
+  ]
+}
