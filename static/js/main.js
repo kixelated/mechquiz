@@ -1,5 +1,6 @@
 (function() {
   var questions, abilities, items;
+  var score = 0, combo = 0;
 
   var finish = function() {
     $("#score").delay(2000).animate({ "line-height": "300px" }, 500);
@@ -25,8 +26,12 @@
         var odom = $("<div>").appendTo(wdom).addClass("option icon");
         var cdom = $("<div>").appendTo(wdom).addClass("caption");
 
-        odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/items/" + name + "_lg.png')");
-        cdom.text(items[name].dname);
+        if (!items[name]) {
+          console.log("invalid option: " + name);
+        } else {
+          odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/items/" + name + "_lg.png')");
+          cdom.text(items[name].dname);
+        }
 
         if (option == question.answer) {
           odom.addClass("answer");
@@ -36,8 +41,12 @@
         var odom = $("<div>").appendTo(wdom).addClass("option icon");
         var cdom = $("<div>").appendTo(wdom).addClass("caption");
 
-        odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/abilities/" + name + "_hp1.png')");
-        cdom.text(abilities[name].dname);
+        if (!abilities[name]) {
+          console.log("invalid option: " + name);
+        } else {
+          odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/abilities/" + name + "_hp1.png')");
+          cdom.text(abilities[name].dname);
+        }
 
         if (option == question.answer) {
           odom.addClass("answer");
@@ -64,14 +73,35 @@
       if (answered) return;
       answered = true;
 
-      if (elem.hasClass("answer")) {
+      var correct = elem.hasClass("answer");
+
+      if (correct) {
+        combo = Math.max(combo + 1, 1);
+      } else {
+        combo = Math.min(combo - 1, -1);
+      }
+
+      if (correct) {
         elem.addClass("correct");
       } else {
         elem.addClass("incorrect");
         $(".option.answer", dom).addClass("correct");
       }
 
-      dom.delay(2000).fadeOut(500, dom.remove);
+      var diff = combo * 10;
+      score += diff;
+
+      $("#score .value").text(score);
+
+      var change = $("#score .change");
+      change.toggleClass("positive", correct);
+      change.toggleClass("negative", !correct);
+      change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
+
+      if (diff > 0) diff = "+" + diff;
+      change.text(diff);
+
+      dom.delay(1500).fadeOut(500, dom.remove);
       next();
     });
   };
@@ -95,7 +125,7 @@
     var allReq = $.when(quizReq, itemReq, abilityReq);
 
     allReq.done(function(quizRes, itemRes, abilityRes) {
-      questions = quizRes[0].questions;
+      questions = _.shuffle(quizRes[0].questions);
       items = itemRes[0].itemdata;
       abilities = abilityRes[0].abilitydata;
 

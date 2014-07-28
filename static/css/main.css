@@ -50,8 +50,21 @@ body {
 }
 
 #score {
+  display: none; /* initial state */
   font-weight: bold;
   font-size: 14px;
+}
+
+#score .change {
+  opacity: 0; /* initial state */
+}
+
+#score .positive {
+  color: #080;
+}
+
+#score .negative {
+  color: #800;
 }
 
 .question {
