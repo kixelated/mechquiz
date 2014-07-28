@@ -1,7 +1,3 @@
-[id$=-template] {
-  display: none;
-}
-
 body {
   background: #111;
   color: #CCC;
@@ -21,13 +17,12 @@ body {
   font-size: 12px;
 }
 
-.table {
-  display: table;
+.question {
   margin: 0 auto;
 }
 
-.table > * {
-  display: table-cell;
+.question > * {
+  display: inline-block;
   vertical-align: middle;
 }
 
@@ -49,6 +44,9 @@ body {
   width: 85px;
   height: 64px;
 
+  font-size: 48px;
+  line-height: 64px;
+
   background-size: 100% auto;
   background-position: 50% 50%;
 }
@@ -61,22 +59,34 @@ body {
   border-color: #999 #777 #777 #999;
 }
 
-.option.correct {
+.correct {
   background-color: #040;
   border-color: #180 #160 #160 #180;
 }
 
-.option.incorrect {
+.correct:before {
+  content: '✔';
+  color: #0A0;
+  text-shadow: 1px 0px 0px #060;
+}
+
+.correct.text:before {
+  padding-right: 6px;
+}
+
+.incorrect {
   background-color: #400;
   border-color: #810 #610 #610 #810;
 }
 
-.option.icon.incorrect:before {
-  content: 'X';
-  font-size: 36px;
-
+.incorrect:before {
+  content: '✗';
   color: #A00;
   text-shadow: 1px 0px 0px #600;
+}
+
+.incorrect.text:before {
+  padding-right: 6px;
 }
 
 .explanation {
