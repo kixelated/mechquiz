@@ -57,7 +57,7 @@
         }
 
         var odom = $("<div>").appendTo(textNode).addClass("option text");
-        odom.text(name);
+        odom.text(name.replace(/_/g, " "));
 
         if (option == question.answer) {
           odom.addClass("answer");
@@ -65,44 +65,57 @@
       }
     });
 
-    var answered = false;
+    var answeredCorrectly = false, answeredIncorrectly = false;
 
     $(".option", dom).click(function(event) {
       var elem = $(event.target);
 
-      if (answered) return;
-      answered = true;
+      if (answeredCorrectly) return;
 
       var correct = elem.hasClass("answer");
 
       if (correct) {
-        combo = Math.max(combo + 1, 1);
-      } else {
-        combo = Math.min(combo - 1, -1);
-      }
-
-      if (correct) {
         elem.addClass("correct");
+        answeredCorrectly = true;
       } else {
         elem.addClass("incorrect");
-        $(".option.answer", dom).addClass("correct");
+        answeredIncorrectly = true;
       }
 
-      var diff = combo * 10;
-      score += diff;
+      if (!correct || !answeredIncorrectly) {
+        if (correct) {
+          combo = Math.max(combo + 1, 1);
+        } else {
+          combo = Math.min(combo - 1, -1);
+        }
 
-      $("#score .value").text(score);
+        var diff = combo * 10;
+        score += diff;
 
-      var change = $("#score .change");
-      change.toggleClass("positive", correct);
-      change.toggleClass("negative", !correct);
-      change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
+        $("#score .value").text(score);
 
-      if (diff > 0) diff = "+" + diff;
-      change.text(diff);
+        var change = $("#score .change");
+        change.toggleClass("positive", correct);
+        change.toggleClass("negative", !correct);
+        change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
 
-      dom.delay(1500).fadeOut(500, dom.remove);
-      next();
+        if (diff > 0) diff = "+" + diff;
+        change.text(diff);
+      }
+
+      if (!answeredCorrectly) {
+        var remaining = $(".option:not(.incorrect)", dom).length;
+
+        if (remaining < 2) {
+          $(".option.answer", dom).addClass("correct");
+
+          dom.delay(2500).fadeOut(500, dom.remove);
+          next();
+        }
+      } else {
+        dom.delay(1500).fadeOut(500, dom.remove);
+        next();
+      }
     });
   };
 

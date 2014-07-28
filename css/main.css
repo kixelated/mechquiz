@@ -116,6 +116,7 @@ body {
 
 .option.text {
   padding: 4px 8px;
+  text-transform: capitalize;
 }
 
 .option:hover {
