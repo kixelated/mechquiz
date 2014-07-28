@@ -86,9 +86,9 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/chaos_knight_reality_rift" ],
+      "options": [ "item/black_king_bar", "ability/chaos_knight_reality_rift", "text/damage_only", "text/pull_only" ],
       "answer": "item/black_king_bar",
-      "difficulty": "easy"
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/crystal_maiden_freezing_field", "text/damage_only", "text/slow_only" ],
@@ -391,7 +391,7 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/slark_pounce", "text/damage_only", "text/stun_only" ],
+      "options": [ "item/black_king_bar", "ability/slark_pounce", "text/damage_only", "text/tether_only" ],
       "answer": "item/black_king_bar",
       "difficulty": "normal"
     },
