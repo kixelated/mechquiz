@@ -516,8 +516,8 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/gyrocopter_homing_missle" ],
-      "answer": "ability/gyrocopter_homing_missle",
+      "options": [ "item/blink", "ability/gyrocopter_homing_missile" ],
+      "answer": "ability/gyrocopter_homing_missile",
       "difficulty": "easy"
     },
     {
@@ -536,18 +536,18 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/tinker_heat-seeking_missle" ],
+      "options": [ "item/blink", "ability/tinker_heat_seeking_missile" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/vengefulspirit_magic_missle" ],
+      "options": [ "item/blink", "ability/vengefulspirit_magic_missile" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/windrunner_shackle" ],
-      "answer": "ability/windrunner_shackle",
+      "options": [ "item/blink", "ability/windrunner_shackleshot" ],
+      "answer": "ability/windrunner_shackleshot",
       "difficulty": "easy"
     },
     {
@@ -561,8 +561,8 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/witch_doctor_paralyzing_casks" ],
-      "answer": "ability/witch_doctor_paralyzing_casks",
+      "options": [ "item/blink", "ability/witch_doctor_paralyzing_cask" ],
+      "answer": "ability/witch_doctor_paralyzing_cask",
       "difficulty": "easy"
     },
     {
@@ -571,8 +571,8 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/necro_death_pulse" ],
-      "answer": "ability/necro_death_pulse",
+      "options": [ "item/blink", "ability/necrolyte_death_pulse" ],
+      "answer": "ability/necrolyte_death_pulse",
       "difficulty": "easy"
     },
     {
@@ -596,18 +596,18 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/phantom_lancer_phantom_lance" ],
+      "options": [ "item/blink", "ability/phantom_lancer_phantom_edge" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/ogre_ignite" ],
+      "options": [ "item/blink", "ability/ogre_magi_ignite" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/naga_ensnare" ],
-      "answer": "ability/naga_ensnare",
+      "options": [ "item/blink", "ability/naga_siren_ensnare" ],
+      "answer": "ability/naga_siren_ensnare",
       "difficulty": "easy"
     },
     {
@@ -641,13 +641,13 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/skywrath_concussive_shot" ],
-      "answer": "ability/skywrath_concussive_shot",
+      "options": [ "item/blink", "ability/skywrath_mage_concussive_shot" ],
+      "answer": "ability/skywrath_mage_concussive_shot",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/skywrath_arcane_bolt" ],
-      "answer": "ability/skywrath_arcane_bolt",
+      "options": [ "item/blink", "ability/skywrath_mage_arcane_bolt" ],
+      "answer": "ability/skywrath_mage_arcane_bolt",
       "difficulty": "easy"
     },
     {
@@ -656,22 +656,27 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/sphere", "ability/mirana_sacred_arrow" ],
-      "answer": "ability/mirana_sacred_arrow",
+      "options": [ "item/sphere", "ability/mirana_arrow" ],
+      "answer": "ability/mirana_arrow",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/sphere", "ability/sand_king_burrow_strike", "text/damage_only", "text/stun_only" ],
+      "options": [ "item/sphere", "ability/sandking_burrowstrike", "text/damage_only", "text/stun_only" ],
       "answer": "item/sphere",
       "difficulty": "normal"
     },
     {
-      "options": [ "item/sphere", "ability/lion_earth_spike", "text/damage_only", "text/stun_only" ],
+      "options": [ "item/sphere", "ability/lion_impale", "text/damage_only", "text/stun_only" ],
       "answer": "item/sphere",
       "difficulty": "normal"
     },
     {
-      "options": [ "item/sphere", "ability/juggernaut_omnislash", "text/bounce_only", "text/damage_only", "text/stun_only" ],
+      "options": [ "item/sphere", "ability/nyx_assassin_impale", "text/damage_only", "text/stun_only" ],
+      "answer": "ability/nyx_assassin_impale",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/sphere", "ability/juggernaut_omni_slash", "text/bounce_only", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "unfair"
     },
@@ -681,7 +686,7 @@
       "difficulty": "unfair"
     },
     {
-      "options": [ "item/sphere", "ability/witch_doctor_paralyzing_casks", "text/bounce_only", "text/damage_only", "text/stun_only" ],
+      "options": [ "item/sphere", "ability/witch_doctor_paralyzing_cask", "text/bounce_only", "text/damage_only", "text/stun_only" ],
       "answer": "text/bounce_only",
       "difficulty": "unfair"
     },
@@ -691,8 +696,8 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/sphere", "ability/skywrath_concussive_shot", "text/damage_only", "text/slow_only" ],
-      "answer": "ability/skywrath_concussive_shot",
+      "options": [ "item/sphere", "ability/skywrath_mage_concussive_shot", "text/damage_only", "text/slow_only" ],
+      "answer": "ability/skywrath_mage_concussive_shot",
       "difficulty": "normal"
     },
     {
