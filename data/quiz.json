@@ -197,7 +197,7 @@
     },
     {
       "options": [ "item/black_king_bar", "ability/juggernaut_blade_fury" ],
-      "answer": "ability/juggernaut_blade_fury",
+      "answer": "item/black_king_bar",
       "difficulty": "easy"
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "options": [ "item/black_king_bar", "ability/kunkka_ghostship", "text/damage_only", "text/stun_only" ],
-      "answer": "text/stun_only",
+      "answer": "item/black_king_bar",
       "difficulty": "normal"
     },
     {
@@ -231,8 +231,8 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/lich_chain_frost", "text/no_damage", "text/no_slow", "text/no_stun" ],
-      "answer": "text/no_damage",
+      "options": [ "item/black_king_bar", "ability/lich_chain_frost", "text/damage_only", "text/slow_only", "text/stun_only" ],
+      "answer": "text/stun_only",
       "difficulty": "unfair"
     },
     {
@@ -296,9 +296,9 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/obsidian_destroyer_sanity_eclipse" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
+      "options": [ "item/black_king_bar", "ability/obsidian_destroyer_sanity_eclipse", "text/damage_only", "text/mana_only" ],
+      "answer": "text/mana_only",
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/omniknight_purification" ],
@@ -509,6 +509,201 @@
       "options": [ "item/black_king_bar", "ability/zuus_thundergods_wrath" ],
       "answer": "item/black_king_bar",
       "difficulty": "normal"
+    },
+    {
+      "options": [ "item/blink", "ability/sven_storm_bolt" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/gyrocopter_homing_missle" ],
+      "answer": "ability/gyrocopter_homing_missle",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/huskar_life_break" ],
+      "answer": "ability/huskar_life_break",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/sniper_assassinate" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/lich_chain_frost" ],
+      "answer": "ability/lich_chain_frost",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/tinker_heat-seeking_missle" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/vengefulspirit_magic_missle" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/windrunner_shackle" ],
+      "answer": "ability/windrunner_shackle",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/viper_viper_strike" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/visage_soul_assumption" ],
+      "answer": "ability/visage_soul_assumption",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/witch_doctor_paralyzing_casks" ],
+      "answer": "ability/witch_doctor_paralyzing_casks",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/spirit_breaker_charge_of_darkness" ],
+      "answer": "ability/spirit_breaker_charge_of_darkness",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/necro_death_pulse" ],
+      "answer": "ability/necro_death_pulse",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/phantom_assassin_stifling_dagger" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/skeleton_king_hellfire_blast" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/queenofpain_scream_of_pain" ],
+      "answer": "ability/queenofpain_scream_of_pain",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/queenofpain_shadow_strike" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/phantom_lancer_phantom_lance" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/ogre_ignite" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/naga_ensnare" ],
+      "answer": "ability/naga_ensnare",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/medusa_mystic_snake" ],
+      "answer": "ability/medusa_mystic_snake",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/alchemist_unstable_concoction" ],
+      "answer": "ability/alchemist_unstable_concoction",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/broodmother_spawn_spiderlings" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/chaos_knight_chaos_bolt" ],
+      "answer": "ability/chaos_knight_chaos_bolt",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/dazzle_poison_touch" ],
+      "answer": "item/blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/brewmaster_drunken_haze" ],
+      "answer": "ability/brewmaster_drunken_haze",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/skywrath_concussive_shot" ],
+      "answer": "ability/skywrath_concussive_shot",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/blink", "ability/skywrath_arcane_bolt" ],
+      "answer": "ability/skywrath_arcane_bolt",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/sphere", "ability/earthshaker_fissure", "text/damage_only", "text/stun_only" ],
+      "answer": "item/sphere",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/sphere", "ability/mirana_sacred_arrow" ],
+      "answer": "ability/mirana_sacred_arrow",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/sphere", "ability/sand_king_burrow_strike", "text/damage_only", "text/stun_only" ],
+      "answer": "item/sphere",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/sphere", "ability/lion_earth_spike", "text/damage_only", "text/stun_only" ],
+      "answer": "item/sphere",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/sphere", "ability/juggernaut_omnislash", "text/bounce_only", "text/damage_only", "text/stun_only" ],
+      "answer": "text/stun_only",
+      "difficulty": "unfair"
+    },
+    {
+      "options": [ "item/sphere", "ability/lich_chain_frost", "text/bounce_only", "text/damage_only", "text/stun_only" ],
+      "answer": "text/bounce_only",
+      "difficulty": "unfair"
+    },
+    {
+      "options": [ "item/sphere", "ability/witch_doctor_paralyzing_casks", "text/bounce_only", "text/damage_only", "text/stun_only" ],
+      "answer": "text/bounce_only",
+      "difficulty": "unfair"
+    },
+    {
+      "options": [ "item/sphere", "ability/rubick_fade_bolt", "text/bounce_only" ],
+      "answer": "item/sphere",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/sphere", "ability/skywrath_concussive_shot", "text/damage_only", "text/slow_only" ],
+      "answer": "ability/skywrath_concussive_shot",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/sphere", "item/mjollnir" ],
+      "answer": "item/sphere",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/sphere", "item/basher" ],
+      "answer": "item/basher",
+      "difficulty": "easy"
     }
   ]
 }
