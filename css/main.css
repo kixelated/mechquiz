@@ -1,6 +1,12 @@
 body {
   background: #111;
-  color: #CCC;
+  color: #ccc;
+}
+
+a {
+  color: #ccc;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .keeper {
