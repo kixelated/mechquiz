@@ -26,9 +26,14 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/axe_culling_blade" ],
-      "answer": "ability/axe_culling_blade",
-      "difficulty": "easy"
+      "options": [ "item/black_king_bar", "ability/axe_culling_blade", "text/fatal_only" ],
+      "answer": "text/fatal_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/sphere", "ability/axe_culling_blade", "text/fatal_only" ],
+      "answer": "item/sphere",
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/bane_fiends_grip", "text/no_damage", "text/no_mana_drain", "text/no_stun" ],
@@ -174,11 +179,6 @@
       "options": [ "item/black_king_bar", "ability/huskar_life_break", "text/damage_only", "text/slow_only" ],
       "answer": "text/slow_only",
       "difficulty": "normal"
-    },
-    {
-      "options": [ "item/black_king_bar", "ability/invoker_sun_strike" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/juggernaut_omni_slash", "text/damage_only", "text/stun_only" ],
@@ -511,11 +511,6 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "ability/vengefulspirit_magic_missile", "item/blink" ],
-      "answer": "item/blink",
-      "difficulty": "easy"
-    },
-    {
       "options": [ "ability/windrunner_shackleshot", "item/blink" ],
       "answer": "ability/windrunner_shackleshot",
       "difficulty": "easy"
@@ -784,6 +779,91 @@
       "options": [ "ability/broodmother_insatiable_hunger", "item/diffusal_blade" ],
       "answer": "ability/broodmother_insatiable_hunger",
       "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/skeleton_king_reincarnation" ],
+      "answer": "ability/skeleton_king_reincarnation",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/abaddon_borrowed_time" ],
+      "answer": "ability/doom_bringer_doom",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/axe_counter_helix" ],
+      "answer": "ability/axe_counter_helix",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/bristleback_bristleback" ],
+      "answer": "ability/doom_bringer_doom",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/lycan_shapeshift",  "text/crit_only", "text/speed_only" ],
+      "answer": "text/speed_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/bounty_hunter_jinada", "text/crit_only", "text/slow_only" ],
+      "answer": "text/slow_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/windrunner_windrun", "text/evasion_only", "text/speed_only" ],
+      "answer": "text/speed_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/spirit_breaker_empowering_haste" ],
+      "answer": "ability/spirit_breaker_empowering_haste",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/faceless_void_backtrack" ],
+      "answer": "ability/doom_bringer_doom",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/riki_permanent_invisibility" ],
+      "answer": "ability/doom_bringer_doom",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/bloodseeker_thirst", "text/damage_only", "text/speed_only" ],
+      "answer": "ability/bloodseeker_thirst",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/bloodseeker_blood_bath" ],
+      "answer": "ability/doom_bringer_doom",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/shredder_reactive_armor" ],
+      "answer": "ability/shredder_reactive_armor",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/meepo_geostrike", "text/damage_only", "text/slow_only" ],
+      "answer": "ability/meepo_geostrike",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/brewmaster_drunken_brawler", "text/crit_only", "text/evasion_only"  ],
+      "answer": "ability/doom_bringer_doom",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/spirit_breaker_greater_bash", "text/damage_only", "text/stun_only"  ],
+      "answer": "ability/doom_bringer_doom",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/doom_bringer_doom", "ability/templar_assassin_psi_blades", "text/spill_only", "text/range_only"  ],
+      "answer": "ability/templar_assassin_psi_blades",
+      "difficulty": "normal"
     }
   ]
 }
