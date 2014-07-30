@@ -57,14 +57,7 @@ body {
 
 #score .change {
   opacity: 0; /* initial state */
-}
-
-#score .positive {
   color: #080;
-}
-
-#score .negative {
-  color: #800;
 }
 
 .question {
@@ -98,7 +91,12 @@ body {
   line-height: 64px;
 
   background-size: 100% auto;
-  background-position: 50% 50%;
+  background-position: left center;
+}
+
+/* the items extracted from the client have whitespace to the right */
+.icon.item {
+  background-size: 124px 64px;
 }
 
 .example {

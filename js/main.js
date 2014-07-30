@@ -1,5 +1,5 @@
 (function() {
-  var questions, abilities, items;
+  var questions, abilities, items, remainingQuestions;
   var score = 0, combo = 0;
 
   var finish = function() {
@@ -7,7 +7,7 @@
   };
 
   var next = function() {
-    var question = questions.pop();
+    var question = remainingQuestions.pop();
     if (!question) {
       return finish();
     }
@@ -23,13 +23,14 @@
 
       if (type == "item") {
         var wdom = $("<div>").appendTo(dom);
-        var odom = $("<div>").appendTo(wdom).addClass("option icon");
+        var odom = $("<div>").appendTo(wdom).addClass("option icon item");
         var cdom = $("<div>").appendTo(wdom).addClass("caption");
 
         if (!items[name]) {
           console.log("invalid option: " + name);
         } else {
-          odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/items/" + name + "_lg.png')");
+          //odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/items/" + name + "_lg.png')");
+          odom.css("background-image", "url('img/item/" + name + ".png')");
           cdom.text(items[name].dname);
         }
 
@@ -38,13 +39,14 @@
         }
       } else if (type == "ability") {
         var wdom = $("<div>").appendTo(dom);
-        var odom = $("<div>").appendTo(wdom).addClass("option icon");
+        var odom = $("<div>").appendTo(wdom).addClass("option icon ability");
         var cdom = $("<div>").appendTo(wdom).addClass("caption");
 
         if (!abilities[name]) {
           console.log("invalid option: " + name);
         } else {
-          odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/abilities/" + name + "_hp1.png')");
+          //odom.css("background-image", "url('http://cdn.dota2.com/apps/dota2/images/abilities/" + name + "_hp1.png')");
+          odom.css("background-image", "url('img/ability/" + name + ".png')");
           cdom.text(abilities[name].dname);
         }
 
@@ -73,6 +75,7 @@
       var elem = $(event.target);
 
       if (answeredCorrectly) return;
+      if (elem.hasClass("correct") || elem.hasClass("incorrect")) return;
 
       var correct = elem.hasClass("answer");
 
@@ -88,21 +91,19 @@
         if (correct) {
           combo = Math.max(combo + 1, 1);
         } else {
-          combo = Math.min(combo - 1, -1);
+          combo = 0;
         }
 
         var diff = combo * 10;
         score += diff;
 
-        $("#score .value").text(score);
+        if (diff > 0) {
+          $("#score .value").text(score);
 
-        var change = $("#score .change");
-        change.toggleClass("positive", correct);
-        change.toggleClass("negative", !correct);
-        change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
-
-        if (diff > 0) diff = "+" + diff;
-        change.text(diff);
+          var change = $("#score .change");
+          change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
+          change.text("+" + diff);
+        }
       }
 
       if (!answeredCorrectly) {
@@ -128,6 +129,9 @@
       $("#instructions").fadeOut(500);
       $("#score").slideDown(500);
 
+      remainingQuestions = _.filter(questions, function(q) { return q.difficulty == diff });
+      remainingQuestions = _.shuffle(remainingQuestions);
+
       next();
     });
   };
@@ -140,9 +144,37 @@
     var allReq = $.when(quizReq, itemReq, abilityReq);
 
     allReq.done(function(quizRes, itemRes, abilityRes) {
-      questions = _.shuffle(quizRes[0].questions);
+      questions = quizRes[0].questions;
       items = itemRes[0].itemdata;
       abilities = abilityRes[0].abilitydata;
+
+      // Verify that all of the questions are valid.
+      _.each(questions, function(question) {
+        var answered = false;
+
+        _.each(question.options, function(option) {
+          var parts = option.split("/");
+          var type = parts[0], name = parts[1];
+
+          if (type == "item") {
+            if (!items[name]) {
+              console.log("unknown item " + name);
+            }
+          } else if (type == "ability") {
+            if (!abilities[name]) {
+              console.log("unknown ability " + name);
+            }
+          } else if (type != "text") {
+            console.log("unknown type " + type);
+          }
+
+          if (option == question.answer) answered = true;
+        });
+
+        if (!answered) {
+          console.log("impossible answer " + question.answer);
+        }
+      });
 
       start();
     });

@@ -1,9 +1,9 @@
 {
   "questions": [
     {
-      "options": [ "item/black_king_bar", "ability/alchemist_acid_spray", "text/no_damage", "text/no_armor_reduction" ],
-      "answer": "text/no_armor_reduction",
-      "difficulty": "hard"
+      "options": [ "item/black_king_bar", "ability/alchemist_acid_spray", "text/damage_only", "text/debuff_only" ],
+      "answer": "text/damage_only",
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/ancient_apparition_ice_blast", "text/no_damage", "text/no_healing_disable", "text/no_shatter" ],
@@ -46,9 +46,9 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/beastmaster_primal_roar", "text/damage_only", "text/stun_only" ],
+      "options": [ "item/black_king_bar", "ability/beastmaster_primal_roar", "text/damage_only", "text/stun_only", "text/slow_only" ],
       "answer": "text/stun_only",
-      "difficulty": "normal"
+      "difficulty": "unfair"
     },
     {
       "options": [ "item/black_king_bar", "ability/bloodseeker_rupture" ],
@@ -111,11 +111,6 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/disruptor_glimpse" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
-    },
-    {
       "options": [ "item/black_king_bar", "ability/disruptor_static_storm", "text/damage_only", "text/silence_only" ],
       "answer": "item/black_king_bar",
       "difficulty": "normal"
@@ -126,8 +121,8 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/earth_spirit_magnetize" ],
-      "answer": "item/black_king_bar",
+      "options": [ "item/sphere", "ability/doom_bringer_doom" ],
+      "answer": "item/sphere",
       "difficulty": "easy"
     },
     {
@@ -144,11 +139,6 @@
       "options": [ "item/black_king_bar", "ability/elder_titan_earth_splitter", "text/no_magic_damage", "text/no_physical_damage", "text/no_slow" ],
       "answer": "text/no_magic_damage",
       "difficulty": "unfair"
-    },
-    {
-      "options": [ "item/black_king_bar", "ability/ember_spirit_fire_remnant" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/ember_spirit_searing_chains", "text/damage_only", "text/stun_only" ],
@@ -191,16 +181,6 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/jakiro_macropyre" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
-    },
-    {
-      "options": [ "item/black_king_bar", "ability/juggernaut_blade_fury" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
-    },
-    {
       "options": [ "item/black_king_bar", "ability/juggernaut_omni_slash", "text/damage_only", "text/stun_only" ],
       "answer": "ability/juggernaut_omni_slash",
       "difficulty": "normal"
@@ -236,7 +216,7 @@
       "difficulty": "unfair"
     },
     {
-      "options": [ "item/black_king_bar", "ability/life_stealer_infest" ],
+      "options": [ "item/black_king_bar", "ability/life_stealer_consume" ],
       "answer": "item/black_king_bar",
       "difficulty": "easy"
     },
@@ -291,19 +271,9 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/nyx_assassin_vendetta" ],
-      "answer": "ability/nyx_assassin_vendetta",
-      "difficulty": "easy"
-    },
-    {
       "options": [ "item/black_king_bar", "ability/obsidian_destroyer_sanity_eclipse", "text/damage_only", "text/mana_only" ],
       "answer": "text/mana_only",
       "difficulty": "normal"
-    },
-    {
-      "options": [ "item/black_king_bar", "ability/omniknight_purification" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/phoenix_supernova", "text/damage_only", "text/stun_only" ],
@@ -331,8 +301,8 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/pugna_nether_ward", "text/damage_only", "text/mana_degen_only" ],
-      "answer": "text/mana_degen_only",
+      "options": [ "item/black_king_bar", "ability/pugna_nether_ward", "text/damage_only", "text/debuff_only" ],
+      "answer": "text/debuff_only",
       "difficulty": "normal"
     },
     {
@@ -341,7 +311,7 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/razor_eye_of_the_storm", "text/no_damage", "text/no_armor_reduction" ],
+      "options": [ "item/black_king_bar", "ability/razor_eye_of_the_storm", "text/no_damage", "text/no_debuff" ],
       "answer": "ability/razor_eye_of_the_storm",
       "difficulty": "normal"
     },
@@ -366,14 +336,14 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/nevermore_requiem", "text/no_damage", "text/no_slow", "text/no_reduction" ],
+      "options": [ "item/black_king_bar", "ability/nevermore_requiem", "text/no_damage", "text/no_slow", "text/no_debuff" ],
       "answer": "text/no_damage",
       "difficulty": "unfair"
     },
     {
       "options": [ "item/black_king_bar", "ability/silencer_global_silence" ],
       "answer": "ability/silencer_global_silence",
-      "difficulty": "normal"
+      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/skywrath_mage_mystic_flare" ],
@@ -382,6 +352,11 @@
     },
     {
       "options": [ "item/black_king_bar", "ability/slardar_bash", "text/damage_only", "text/stun_only" ],
+      "answer": "ability/slardar_bash",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/faceless_void_time_lock", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
     },
@@ -396,9 +371,9 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/sniper_assassinate", "text/damage_only", "text/stun_only" ],
-      "answer": "text/stun_only",
-      "difficulty": "normal"
+      "options": [ "item/black_king_bar", "ability/sniper_assassinate", "text/no_damage", "text/no_stun", "text/no_vision" ],
+      "answer": "text/no_damage",
+      "difficulty": "unfair"
     },
     {
       "options": [ "item/black_king_bar", "ability/sniper_headshot", "text/damage_only", "text/stun_only" ],
@@ -426,7 +401,7 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/tidehunter_anchor_smash", "text/damage_only", "text/damage_reduction_only" ],
+      "options": [ "item/black_king_bar", "ability/tidehunter_anchor_smash", "text/damage_only", "text/debuff_only" ],
       "answer": "ability/tidehunter_anchor_smash",
       "difficulty": "normal"
     },
@@ -441,9 +416,9 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/tinker_laser" ],
+      "options": [ "item/black_king_bar", "ability/tinker_laser", "text/damage_only", "text/debuff_only" ],
       "answer": "item/black_king_bar",
-      "difficulty": "easy"
+      "difficulty": "normal"
     },
     {
       "options": [ "item/black_king_bar", "ability/tinker_march_of_the_machines" ],
@@ -478,17 +453,12 @@
     {
       "options": [ "item/black_king_bar", "ability/venomancer_poison_nova" ],
       "answer": "item/black_king_bar",
-      "difficulty": "normal"
+      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/viper_viper_strike", "text/damage_only", "text/slow_only" ],
       "answer": "text/slow_only",
       "difficulty": "normal"
-    },
-    {
-      "options": [ "item/black_king_bar", "ability/warlock_fatal_bonds" ],
-      "answer": "item/black_king_bar",
-      "difficulty": "easy"
     },
     {
       "options": [ "item/black_king_bar", "ability/warlock_rain_of_chaos", "text/damage_only", "text/stun_only" ],
@@ -506,147 +476,142 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "item/black_king_bar", "ability/zuus_thundergods_wrath" ],
-      "answer": "item/black_king_bar",
+      "options": [ "item/black_king_bar", "ability/zuus_thundergods_wrath", "text/damage_only", "text/vision_only" ],
+      "answer": "text/vision_only",
       "difficulty": "normal"
     },
     {
-      "options": [ "item/blink", "ability/sven_storm_bolt" ],
+      "options": [ "ability/sven_storm_bolt", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/gyrocopter_homing_missile" ],
+      "options": [ "ability/gyrocopter_homing_missile", "item/blink" ],
       "answer": "ability/gyrocopter_homing_missile",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/huskar_life_break" ],
+      "options": [ "ability/huskar_life_break", "item/blink" ],
       "answer": "ability/huskar_life_break",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/sniper_assassinate" ],
+      "options": [ "ability/sniper_assassinate", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/lich_chain_frost" ],
+      "options": [ "ability/lich_chain_frost", "item/blink" ],
       "answer": "ability/lich_chain_frost",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/tinker_heat_seeking_missile" ],
+      "options": [ "ability/tinker_heat_seeking_missile", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/vengefulspirit_magic_missile" ],
+      "options": [ "ability/vengefulspirit_magic_missile", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/windrunner_shackleshot" ],
+      "options": [ "ability/windrunner_shackleshot", "item/blink" ],
       "answer": "ability/windrunner_shackleshot",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/viper_viper_strike" ],
+      "options": [ "ability/viper_viper_strike", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/visage_soul_assumption" ],
+      "options": [ "ability/visage_soul_assumption", "item/blink" ],
       "answer": "ability/visage_soul_assumption",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/witch_doctor_paralyzing_cask" ],
+      "options": [ "ability/witch_doctor_paralyzing_cask", "item/blink" ],
       "answer": "ability/witch_doctor_paralyzing_cask",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/spirit_breaker_charge_of_darkness" ],
+      "options": [ "ability/spirit_breaker_charge_of_darkness", "item/blink" ],
       "answer": "ability/spirit_breaker_charge_of_darkness",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/necrolyte_death_pulse" ],
+      "options": [ "ability/necrolyte_death_pulse", "item/blink" ],
       "answer": "ability/necrolyte_death_pulse",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/phantom_assassin_stifling_dagger" ],
+      "options": [ "ability/phantom_assassin_stifling_dagger", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/skeleton_king_hellfire_blast" ],
+      "options": [ "ability/skeleton_king_hellfire_blast", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/queenofpain_scream_of_pain" ],
+      "options": [ "ability/queenofpain_scream_of_pain", "item/blink" ],
       "answer": "ability/queenofpain_scream_of_pain",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/queenofpain_shadow_strike" ],
+      "options": [ "ability/queenofpain_shadow_strike", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/phantom_lancer_phantom_edge" ],
+      "options": [ "ability/phantom_lancer_spirit_lance", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/ogre_magi_ignite" ],
-      "answer": "item/blink",
-      "difficulty": "easy"
-    },
-    {
-      "options": [ "item/blink", "ability/naga_siren_ensnare" ],
+      "options": [ "ability/naga_siren_ensnare", "item/blink" ],
       "answer": "ability/naga_siren_ensnare",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/medusa_mystic_snake" ],
+      "options": [ "ability/medusa_mystic_snake", "item/blink" ],
       "answer": "ability/medusa_mystic_snake",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/alchemist_unstable_concoction" ],
+      "options": [ "ability/alchemist_unstable_concoction", "item/blink" ],
       "answer": "ability/alchemist_unstable_concoction",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/broodmother_spawn_spiderlings" ],
-      "answer": "item/blink",
-      "difficulty": "easy"
+      "options": [ "ability/alchemist_unstable_concoction", "item/black_king_bar", "text/damage_only", "text/stun_only" ],
+      "answer": "text/damage_only",
+      "difficulty": "normal"
     },
     {
-      "options": [ "item/blink", "ability/chaos_knight_chaos_bolt" ],
+      "options": [ "ability/chaos_knight_chaos_bolt", "item/blink" ],
       "answer": "ability/chaos_knight_chaos_bolt",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/dazzle_poison_touch" ],
+      "options": [ "ability/dazzle_poison_touch", "item/blink" ],
       "answer": "item/blink",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/brewmaster_drunken_haze" ],
+      "options": [ "ability/brewmaster_drunken_haze", "item/blink" ],
       "answer": "ability/brewmaster_drunken_haze",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/skywrath_mage_concussive_shot" ],
+      "options": [ "ability/skywrath_mage_concussive_shot", "item/blink" ],
       "answer": "ability/skywrath_mage_concussive_shot",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/blink", "ability/skywrath_mage_arcane_bolt" ],
+      "options": [ "ability/skywrath_mage_arcane_bolt", "item/blink" ],
       "answer": "ability/skywrath_mage_arcane_bolt",
       "difficulty": "easy"
     },
@@ -656,9 +621,9 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/sphere", "ability/mirana_arrow" ],
+      "options": [ "item/sphere", "ability/mirana_arrow", "text/damage_only", "text/stun_only" ],
       "answer": "ability/mirana_arrow",
-      "difficulty": "easy"
+      "difficulty": "normal"
     },
     {
       "options": [ "item/sphere", "ability/sandking_burrowstrike", "text/damage_only", "text/stun_only" ],
@@ -701,13 +666,123 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/sphere", "item/mjollnir" ],
-      "answer": "item/sphere",
+      "options": [ "item/sphere", "item/basher" ],
+      "answer": "item/basher",
       "difficulty": "easy"
     },
     {
-      "options": [ "item/sphere", "item/basher" ],
-      "answer": "item/basher",
+      "options": [ "item/sphere", "ability/sniper_assassinate", "text/damage_only", "text/stun_only", "text/sight_only"],
+      "answer": "text/sight_only",
+      "difficulty": "unfair"
+    },
+    {
+      "options": [ "item/sphere", "ability/enchantress_impetus" ],
+      "answer": "ability/enchantress_impetus",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/tidehunter_anchor_smash", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/treant_leech_seed", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/shredder_whirling_death", "text/damage_only", "text/debuff_only" ],
+      "answer": "text/debuff_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/elder_titan_ancestral_spirit", "text/damage_only", "text/speed_only" ],
+      "answer": "text/speed_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/slardar_slithereen_crush", "text/damage_only", "text/stun_only" ],
+      "answer": "text/damage_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/abaddon_aphotic_shield", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/ursa_enrage", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/dust", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/venomancer_poison_sting", "text/damage_only", "text/slow_only" ],
+      "answer": "text/slow_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/meepo_earthbind", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/naga_siren_ensnare", "item/diffusal_blade" ],
+      "answer": "ability/naga_siren_ensnare",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/crystal_maiden_frostbite", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/shadow_shaman_voodoo", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/lich_frost_armor", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/death_prophet_silence", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/dark_seer_surge", "item/diffusal_blade" ],
+      "answer": "item/diffusal_blade",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/shredder_whirling_death", "item/diffusal_blade" ],
+      "answer": "ability/shredder_whirling_death",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/clinkz_wind_walk", "item/diffusal_blade" ],
+      "answer": "ability/clinkz_wind_walk",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/bloodseeker_bloodrage", "item/diffusal_blade" ],
+      "answer": "ability/bloodseeker_bloodrage",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/dazzle_weave", "item/diffusal_blade" ],
+      "answer": "ability/dazzle_weave",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/broodmother_insatiable_hunger", "item/diffusal_blade" ],
+      "answer": "ability/broodmother_insatiable_hunger",
       "difficulty": "easy"
     }
   ]
