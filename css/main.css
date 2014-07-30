@@ -57,7 +57,14 @@ body {
 
 #score .change {
   opacity: 0; /* initial state */
+}
+
+#score .positive {
   color: #080;
+}
+
+#score .negative{
+  color: #800;
 }
 
 .question {

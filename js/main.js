@@ -1,5 +1,5 @@
 (function() {
-  var questions, abilities, items, remainingQuestions;
+  var questions, abilities, items, activeQuestions;
   var score = 0, combo = 0;
 
   var finish = function() {
@@ -7,7 +7,7 @@
   };
 
   var next = function() {
-    var question = remainingQuestions.pop();
+    var question = activeQuestions.pop();
     if (!question) {
       return finish();
     }
@@ -69,55 +69,52 @@
       }
     });
 
-    var answeredCorrectly = false, answeredIncorrectly = false;
+    var answered = false;
 
     $(".option", dom).click(function(event) {
       var elem = $(event.target);
 
-      if (answeredCorrectly) return;
+      if (answered) return;
       if (elem.hasClass("correct") || elem.hasClass("incorrect")) return;
 
       var correct = elem.hasClass("answer");
+      if (correct) answered = true;
 
-      if (correct) {
-        elem.addClass("correct");
-        answeredCorrectly = true;
-      } else {
-        elem.addClass("incorrect");
-        answeredIncorrectly = true;
-      }
+      elem.addClass(correct ? "correct" : "incorrect");
 
-      if (!correct || !answeredIncorrectly) {
-        if (correct) {
-          combo = Math.max(combo + 1, 1);
-        } else {
-          combo = 0;
-        }
+      if (correct) combo = Math.max(combo + 1, 0);
+      else combo = Math.min(combo - 1, -1);
 
+      if (combo != 0) {
         var diff = combo * 10;
         score += diff;
 
-        if (diff > 0) {
-          $("#score .value").text(score);
+        $("#score .value").text(score);
 
-          var change = $("#score .change");
-          change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
-          change.text("+" + diff);
-        }
+        var change = $("#score .change");
+        change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
+        change.toggleClass("positive", correct);
+        change.toggleClass("negative", !correct);
+
+        if (diff > 0) diff = "+" + diff;
+        change.text(diff);
       }
 
-      if (!answeredCorrectly) {
+      if (correct) {
+        answered = true;
+
+        dom.delay(1500).fadeOut(500, dom.remove);
+        next();
+      } else {
         var remaining = $(".option:not(.incorrect)", dom).length;
 
         if (remaining < 2) {
+          answered = true;
           $(".option.answer", dom).addClass("correct");
 
           dom.delay(2500).fadeOut(500, dom.remove);
           next();
         }
-      } else {
-        dom.delay(1500).fadeOut(500, dom.remove);
-        next();
       }
     });
   };
@@ -129,8 +126,8 @@
       $("#instructions").fadeOut(500);
       $("#score").slideDown(500);
 
-      remainingQuestions = _.filter(questions, function(q) { return q.difficulty == diff });
-      remainingQuestions = _.shuffle(remainingQuestions);
+      activeQuestions = _.filter(questions, function(q) { return q.difficulty == diff });
+      activeQuestions = _.shuffle(activeQuestions);
 
       next();
     });
