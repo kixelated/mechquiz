@@ -6,7 +6,7 @@
       "difficulty": "normal"
     },
     {
-      "options": [ "item/black_king_bar", "ability/ancient_apparition_ice_blast", "text/no_damage", "text/no_healing_disable", "text/no_shatter" ],
+      "options": [ "item/black_king_bar", "ability/ancient_apparition_ice_blast", "text/no_damage", "text/no_debuff", "text/no_shatter" ],
       "answer": "text/no_damage",
       "difficulty": "unfair"
     },

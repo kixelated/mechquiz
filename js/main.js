@@ -1,11 +1,18 @@
 (function() {
   var questions, abilities, items, activeQuestions;
   var score = 0, combo = 0;
+  var statsCorrect, statsTotal;
+
+  var speed = 500;
 
   var finish = function() {
     setTimeout(function() {
-      $("#difficulties").slideDown(500);
-      $("#spacer").slideDown(500);
+      $("#remaining").slideUp(speed);
+      $("#difficulties, #spacer").slideDown(speed);
+
+      $("#stats .correct").text(statsCorrect);
+      $("#stats .incorrect").text(statsTotal - statsCorrect);
+      $("#stats").delay(speed * 2).slideDown(speed);
     }, 2000);
   };
 
@@ -15,8 +22,11 @@
       return finish();
     }
 
+    var remaining = activeQuestions.length;
+    $("#remaining .value").text(remaining);
+
     var dom = $("<div>").addClass("question").prependTo("#questions");
-    dom.slideUp().slideDown(500);
+    dom.slideUp().slideDown(speed);
 
     var textNode;
 
@@ -88,6 +98,10 @@
       if (correct) combo = Math.max(combo + 1, 0);
       else combo = Math.min(combo - 1, -1);
 
+      if (correct && combo > 0) {
+        statsCorrect += 1;
+      }
+
       if (combo != 0) {
         var diff = combo * 10;
         score += diff;
@@ -95,7 +109,7 @@
         $("#score .value").text(score);
 
         var change = $("#score .change");
-        change.css({ opacity: 1 }).animate({ opacity: 0 }, 500);
+        change.css({ opacity: 1 }).animate({ opacity: 0 }, speed);
         change.toggleClass("positive", correct);
         change.toggleClass("negative", !correct);
 
@@ -106,7 +120,7 @@
       if (correct) {
         answered = true;
 
-        dom.delay(1500).fadeOut(500, function() { dom.remove() });
+        dom.delay(speed * 3).fadeOut(speed, function() { dom.remove() });
         next();
       } else {
         var remaining = $(".option:not(.incorrect)", dom).length;
@@ -115,7 +129,7 @@
           answered = true;
           $(".option.answer", dom).addClass("correct");
 
-          dom.delay(2500).fadeOut(500, function() { dom.remove() });
+          dom.delay(speed * 5).fadeOut(speed, function() { dom.remove() });
           next();
         }
       }
@@ -126,13 +140,15 @@
     $(".difficulty").click(function(event) {
       var diff = $(event.target).data("value");
 
-      $("#instructions").fadeOut(500);
-      $("#difficulties").slideUp(500);
-      $("#spacer").slideUp(500);
-      $("#score").slideDown(500);
+      $("#instructions").fadeOut(speed);
+      $("#difficulties, #spacer, #stats").slideUp(speed);
+      $("#score").slideDown(speed);
 
       activeQuestions = _.filter(questions, function(q) { return q.difficulty == diff });
       activeQuestions = _.shuffle(activeQuestions);
+
+      statsCorrect = 0;
+      statsTotal = activeQuestions.length;
 
       next();
     });

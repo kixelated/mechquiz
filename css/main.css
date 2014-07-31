@@ -9,6 +9,17 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  color: #ccc;
+  text-align: center;
+  text-shadow: 1px 1px 0px #444;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 2em;
+  font-size: 14px;
+}
+
 .keeper {
   width: 616px; /* 664 - 48 */
   height: 314px; /* 362 - 48 */
@@ -56,19 +67,27 @@ a {
 }
 
 #spacer {
-  height: 100px;
+  height: 80px;
   display: none;
 }
 
-#score {
+#score, #stats {
   display: none; /* initial state */
   font-weight: bold;
   font-size: 14px;
-  padding: 12px 0;
+}
+
+#score {
+  padding-left: 50px;
+  margin: 8px;
 }
 
 #score .change {
   opacity: 0; /* initial state */
+  width: 50px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 4px;
 }
 
 #score .positive {
