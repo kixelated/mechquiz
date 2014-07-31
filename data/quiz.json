@@ -71,6 +71,11 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/bounty_hunter_jinada", "text/damage_only", "text/slow_only" ],
+      "answer": "ability/bounty_hunter_jinada",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/brewmaster_thunder_clap", "text/damage_only", "text/slow_only" ],
       "answer": "item/black_king_bar",
       "difficulty": "normal"
@@ -476,6 +481,11 @@
       "difficulty": "normal"
     },
     {
+      "options": [ "item/sphere", "ability/viper_viper_strike", "text/damage_only", "text/slow_only" ],
+      "answer": "item/sphere",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/warlock_rain_of_chaos", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
@@ -766,7 +776,7 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "ability/death_prophet_silence", "item/diffusal_blade" ],
+      "options": [ "item/orchid", "item/diffusal_blade" ],
       "answer": "item/diffusal_blade",
       "difficulty": "easy"
     },
@@ -797,7 +807,7 @@
     },
     {
       "options": [ "ability/broodmother_insatiable_hunger", "item/diffusal_blade" ],
-      "answer": "ability/broodmother_insatiable_hunger",
+      "answer": "item/diffusal_blade",
       "difficulty": "easy"
     },
     {
@@ -863,11 +873,16 @@
     {
       "options": [ "ability/doom_bringer_doom", "ability/shredder_reactive_armor" ],
       "answer": "ability/shredder_reactive_armor",
-      "difficulty": "normal"
+      "difficulty": "easy"
     },
     {
       "options": [ "ability/doom_bringer_doom", "ability/meepo_geostrike", "text/damage_only", "text/slow_only" ],
       "answer": "ability/meepo_geostrike",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "item/black_king_bar", "ability/meepo_geostrike", "text/damage_only", "text/slow_only" ],
+      "answer": "text/slow_only",
       "difficulty": "normal"
     },
     {
@@ -903,6 +918,51 @@
     {
       "options": [ "ability/faceless_void_chronosphere", "ability/morphling_waveform" ],
       "answer": "ability/morphling_waveform",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/storm_spirit_ball_lightning" ],
+      "answer": "ability/storm_spirit_ball_lightning",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/death_prophet_exorcism" ],
+      "answer": "ability/death_prophet_exorcism",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/brewmaster_primal_split" ],
+      "answer": "ability/faceless_void_chronosphere",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/shadow_shaman_mass_serpent_ward" ],
+      "answer": "ability/shadow_shaman_mass_serpent_ward",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/witch_doctor_death_ward" ],
+      "answer": "ability/faceless_void_chronosphere",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/undying_tombstone", "text/spawn_only" ],
+      "answer": "text/spawn_only",
+      "difficulty": "normal"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/venomancer_plague_ward" ],
+      "answer": "ability/venomancer_plague_ward",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "item/butterfly" ],
+      "answer": "ability/faceless_void_chronosphere",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/juggernaut_omni_slash" ],
+      "answer": "ability/juggernaut_omni_slash",
       "difficulty": "easy"
     },
     {
@@ -966,11 +1026,6 @@
       "difficulty": "easy"
     },
     {
-      "options": [ "ability/kunkka_x_marks_the_spot", "ability/shadow_demon_disruption" ],
-      "answer": "ability/shadow_demon_disruption",
-      "difficulty": "easy"
-    },
-    {
       "options": [ "item/ghost", "ability/naga_siren_ensnare" ],
       "answer": "item/ghost",
       "difficulty": "easy"
@@ -989,11 +1044,6 @@
       "options": [ "item/ghost", "ability/dazzle_poison_touch", "text/no_damage", "text/no_slow", "text/no_stun" ],
       "answer": "text/no_damage",
       "difficulty": "unfair"
-    },
-    {
-      "options": [ "ability/shadow_shaman_mass_serpent_ward", "item/phase_boots" ],
-      "answer": "item/phase_boots",
-      "difficulty": "easy"
     },
     {
       "options": [ "item/orchid", "ability/riki_permanent_invisibility" ],
