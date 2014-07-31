@@ -167,32 +167,34 @@
       abilities = abilityRes[0].abilitydata;
 
       // Verify that all of the questions are valid.
-      _.each(questions, function(question) {
-        var answered = false;
+      if (location.hostname == "localhost") {
+        _.each(questions, function(question) {
+          var answered = false;
 
-        _.each(question.options, function(option) {
-          var parts = option.split("/");
-          var type = parts[0], name = parts[1];
+          _.each(question.options, function(option) {
+            var parts = option.split("/");
+            var type = parts[0], name = parts[1];
 
-          if (type == "item") {
-            if (!items[name]) {
-              console.log("unknown item " + name);
+            if (type == "item") {
+              if (!items[name]) {
+                console.log("unknown item " + name);
+              }
+            } else if (type == "ability") {
+              if (!abilities[name]) {
+                console.log("unknown ability " + name);
+              }
+            } else if (type != "text") {
+              console.log("unknown type " + type);
             }
-          } else if (type == "ability") {
-            if (!abilities[name]) {
-              console.log("unknown ability " + name);
-            }
-          } else if (type != "text") {
-            console.log("unknown type " + type);
+
+            if (option == question.answer) answered = true;
+          });
+
+          if (!answered) {
+            console.log("impossible answer " + question.answer);
           }
-
-          if (option == question.answer) answered = true;
         });
-
-        if (!answered) {
-          console.log("impossible answer " + question.answer);
-        }
-      });
+      }
 
       start();
     });

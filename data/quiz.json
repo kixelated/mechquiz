@@ -21,6 +21,11 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "ability/life_stealer_feast" ],
+      "answer": "ability/life_stealer_feast",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/antimage_mana_void", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
       "difficulty": "normal"
@@ -973,17 +978,17 @@
     {
       "options": [ "item/ghost", "ability/alchemist_unstable_concoction", "text/damage_only", "text/stun_only" ],
       "answer": "text/stun_only",
-      "difficulty": "easy"
+      "difficulty": "normal"
     },
     {
       "options": [ "item/ghost", "ability/spirit_breaker_charge_of_darkness", "text/damage_only", "text/stun_only" ],
       "answer": "ability/spirit_breaker_charge_of_darkness",
-      "difficulty": "easy"
+      "difficulty": "normal"
     },
     {
       "options": [ "item/ghost", "ability/dazzle_poison_touch", "text/no_damage", "text/no_slow", "text/no_stun" ],
       "answer": "text/no_damage",
-      "difficulty": "easy"
+      "difficulty": "unfair"
     },
     {
       "options": [ "ability/shadow_shaman_mass_serpent_ward", "item/phase_boots" ],
@@ -995,6 +1000,5 @@
       "answer": "item/orchid",
       "difficulty": "easy"
     }
-
   ]
 }
