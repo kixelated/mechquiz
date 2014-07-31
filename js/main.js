@@ -1,5 +1,5 @@
 (function() {
-  var questions, abilities, items, activeQuestions;
+  var questions, abilities, items, currentQuestions;
   var score = 0, combo = 0;
   var statsCorrect, statsTotal;
 
@@ -17,12 +17,12 @@
   };
 
   var next = function() {
-    var question = activeQuestions.pop();
+    var question = currentQuestions.pop();
     if (!question) {
       return finish();
     }
 
-    var remaining = activeQuestions.length;
+    var remaining = currentQuestions.length;
     $("#remaining .value").text(remaining);
 
     var dom = $("<div>").addClass("question").prependTo("#questions");
@@ -30,7 +30,7 @@
 
     var textNode;
 
-    _.each(question.options, function(option) {
+    _.each(question.q, function(option) {
       var temp = option.split("/");
       var type = temp[0], name = temp[1];
 
@@ -47,7 +47,7 @@
           cdom.text(items[name].dname);
         }
 
-        if (option == question.answer) {
+        if (option == question.a) {
           odom.addClass("answer");
         }
       } else if (type == "ability") {
@@ -63,7 +63,7 @@
           cdom.text(abilities[name].dname);
         }
 
-        if (option == question.answer) {
+        if (option == question.a) {
           odom.addClass("answer");
         }
       } else if (type == "text") {
@@ -74,7 +74,7 @@
         var odom = $("<div>").appendTo(textNode).addClass("option text");
         odom.text(name.replace(/_/g, " "));
 
-        if (option == question.answer) {
+        if (option == question.a) {
           odom.addClass("answer");
         }
       } else {
@@ -136,22 +136,20 @@
     });
   };
 
-  var start = function() {
-    $(".difficulty").click(function(event) {
-      var diff = $(event.target).data("value");
+  var start = function(target) {
+    $("#instructions").fadeOut(speed);
+    $("#difficulties, #spacer, #stats").slideUp(speed);
+    $("#score").slideDown(speed);
 
-      $("#instructions").fadeOut(speed);
-      $("#difficulties, #spacer, #stats").slideUp(speed);
-      $("#score").slideDown(speed);
+    currentQuestions = _.sortBy(questions, function(question) {
+      return Math.abs(target - question.q.length) + Math.random();
+    }).slice(0, 50);
+    currentQuestions = _.shuffle(currentQuestions);
 
-      activeQuestions = _.filter(questions, function(q) { return q.difficulty == diff });
-      activeQuestions = _.shuffle(activeQuestions);
+    statsCorrect = 0;
+    statsTotal = currentQuestions.length;
 
-      statsCorrect = 0;
-      statsTotal = activeQuestions.length;
-
-      next();
-    });
+    next();
   };
 
   $(function() {
@@ -171,7 +169,7 @@
         _.each(questions, function(question) {
           var answered = false;
 
-          _.each(question.options, function(option) {
+          _.each(question.q, function(option) {
             var parts = option.split("/");
             var type = parts[0], name = parts[1];
 
@@ -187,16 +185,19 @@
               console.log("unknown type " + type);
             }
 
-            if (option == question.answer) answered = true;
+            if (option == question.a) answered = true;
           });
 
           if (!answered) {
-            console.log("impossible answer " + question.answer);
+            console.log("impossible answer " + question.a);
           }
         });
       }
 
-      start();
+      $(".difficulty").click(function(event) {
+        var target = $(event.target).data("target");
+        start(target);
+      });
     });
 
     allReq.fail(function() {

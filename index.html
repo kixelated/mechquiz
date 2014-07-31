@@ -16,9 +16,9 @@
 
     <div class="keeper">
       <div id="difficulties">
-        <div class="easy difficulty" data-value="easy">Easy</div>
-        <div class="normal difficulty" data-value="normal">Normal</div>
-        <div class="unfair difficulty" data-value="unfair">Unfair</div>
+        <div class="easy difficulty" data-target="2">Easy</div>
+        <div class="normal difficulty" data-target="3">Normal</div>
+        <div class="unfair difficulty" data-target="5">Unfair</div>
       </div>
 
       <div id="spacer"></div>
@@ -43,16 +43,16 @@
           For example:
 
           <div class="example question">
-            <div class="option icon correct" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/items/black_king_bar_lg.png')"></div>
-            <div class="option icon incorrect" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/abilities/sven_storm_bolt_hp1.png')"></div>
+            <div class="option item icon correct" style="background-image: url('img/item/black_king_bar.png')"></div>
+            <div class="option ability icon incorrect" style="background-image: url('img/ability/sven_storm_bolt.png')"></div>
             <div class="explanation">
               Storm Bolt is blocked by Black King Bar.
             </div>
           </div>
 
           <div class="example question">
-            <div class="option icon incorrect" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/items/black_king_bar_lg.png')"></div>
-            <div class="option icon correct" style="background-image: url('http://cdn.dota2.com/apps/dota2/images/abilities/doom_bringer_doom_hp1.png')"></div>
+            <div class="option item icon incorrect" style="background-image: url('img/item/black_king_bar.png')"></div>
+            <div class="option ability icon correct" style="background-image: url('img/ability/doom_bringer_doom.png')"></div>
             <div class="explanation">
               Doom completely bypasses Black King Bar.
             </div>

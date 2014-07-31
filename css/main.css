@@ -137,6 +137,10 @@ h1 {
   background-size: 124px 64px;
 }
 
+.example .icon.item {
+  background-size: 67px 32px;
+}
+
 .example {
   display: inline-block;
   width: 33%;
