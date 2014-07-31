@@ -2,7 +2,7 @@
   "questions": [
     {
       "options": [ "item/black_king_bar", "ability/alchemist_acid_spray", "text/damage_only", "text/debuff_only" ],
-      "answer": "text/damage_only",
+      "answer": "ability/alchemist_acid_spray",
       "difficulty": "normal"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "options": [ "item/black_king_bar", "ability/dark_seer_wall_of_replica", "text/damage_only", "text/replica_only" ],
-      "answer": "ability/dark_seer_wall_of_replica",
+      "answer": "text/replica_only",
       "difficulty": "normal"
     },
     {
@@ -377,7 +377,7 @@
     },
     {
       "options": [ "item/black_king_bar", "ability/sniper_headshot", "text/damage_only", "text/stun_only" ],
-      "answer": "text/stun_only",
+      "answer": "text/damage_only",
       "difficulty": "normal"
     },
     {
@@ -456,6 +456,16 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/black_king_bar", "item/skadi" ],
+      "answer": "item/skadi",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "item/monkey_king_bar", "text/damage_only", "text/stun_only" ],
+      "answer": "item/black_king_bar",
+      "difficulty": "normal"
+    },
+    {
       "options": [ "item/black_king_bar", "ability/viper_viper_strike", "text/damage_only", "text/slow_only" ],
       "answer": "text/slow_only",
       "difficulty": "normal"
@@ -473,6 +483,11 @@
     {
       "options": [ "item/black_king_bar", "ability/skeleton_king_reincarnation" ],
       "answer": "item/black_king_bar",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/black_king_bar", "item/sange" ],
+      "answer": "item/sange",
       "difficulty": "easy"
     },
     {
@@ -666,6 +681,11 @@
       "difficulty": "easy"
     },
     {
+      "options": [ "item/sphere", "ability/slark_pounce" ],
+      "answer": "item/sphere",
+      "difficulty": "easy"
+    },
+    {
       "options": [ "item/sphere", "ability/sniper_assassinate", "text/damage_only", "text/stun_only", "text/sight_only"],
       "answer": "text/sight_only",
       "difficulty": "unfair"
@@ -688,11 +708,6 @@
     {
       "options": [ "item/black_king_bar", "ability/shredder_whirling_death", "text/damage_only", "text/debuff_only" ],
       "answer": "text/debuff_only",
-      "difficulty": "normal"
-    },
-    {
-      "options": [ "item/black_king_bar", "ability/elder_titan_ancestral_spirit", "text/damage_only", "text/speed_only" ],
-      "answer": "text/speed_only",
       "difficulty": "normal"
     },
     {
@@ -864,6 +879,122 @@
       "options": [ "ability/doom_bringer_doom", "ability/templar_assassin_psi_blades", "text/spill_only", "text/range_only"  ],
       "answer": "ability/templar_assassin_psi_blades",
       "difficulty": "normal"
+    },
+    {
+      "options": [ "item/invis_sword", "ability/meepo_earthbind" ],
+      "answer": "item/invis_sword",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/invis_sword", "ability/faceless_void_chronosphere" ],
+      "answer": "ability/faceless_void_chronosphere",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/mirana_leap" ],
+      "answer": "ability/faceless_void_chronosphere",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/faceless_void_chronosphere", "ability/morphling_waveform" ],
+      "answer": "ability/morphling_waveform",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/invis_sword", "ability/puck_dream_coil" ],
+      "answer": "item/invis_sword",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/necrolyte_death_pulse", "item/invis_sword" ],
+      "answer": "ability/necrolyte_death_pulse",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/invis_sword", "ability/treant_overgrowth" ],
+      "answer": "item/invis_sword",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/visage_soul_assumption", "item/invis_sword" ],
+      "answer": "ability/visage_soul_assumption",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/witch_doctor_paralyzing_cask", "item/invis_sword" ],
+      "answer": "ability/witch_doctor_paralyzing_cask",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/slark_pounce", "ability/mirana_leap" ],
+      "answer": "ability/slark_pounce",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/slark_pounce", "ability/antimage_blink" ],
+      "answer": "ability/antimage_blink",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/slark_pounce", "ability/abaddon_aphotic_shield" ],
+      "answer": "ability/slark_pounce",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/slark_pounce", "item/force_staff" ],
+      "answer": "ability/slark_pounce",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/shredder_whirling_death", "ability/abaddon_aphotic_shield" ],
+      "answer": "ability/shredder_whirling_death",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/disruptor_glimpse", "ability/abaddon_aphotic_shield" ],
+      "answer": "ability/disruptor_glimpse",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/sven_storm_bolt", "ability/slark_pounce" ],
+      "answer": "ability/slark_pounce",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/kunkka_x_marks_the_spot", "ability/shadow_demon_disruption" ],
+      "answer": "ability/shadow_demon_disruption",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/ghost", "ability/naga_siren_ensnare" ],
+      "answer": "item/ghost",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/ghost", "ability/alchemist_unstable_concoction", "text/damage_only", "text/stun_only" ],
+      "answer": "text/stun_only",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/ghost", "ability/spirit_breaker_charge_of_darkness", "text/damage_only", "text/stun_only" ],
+      "answer": "ability/spirit_breaker_charge_of_darkness",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/ghost", "ability/dazzle_poison_touch", "text/no_damage", "text/no_slow", "text/no_stun" ],
+      "answer": "text/no_damage",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "ability/shadow_shaman_mass_serpent_ward", "item/phase_boots" ],
+      "answer": "item/phase_boots",
+      "difficulty": "easy"
+    },
+    {
+      "options": [ "item/orchid", "ability/riki_permanent_invisibility" ],
+      "answer": "item/orchid",
+      "difficulty": "easy"
     }
+
   ]
 }
