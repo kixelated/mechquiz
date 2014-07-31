@@ -59,6 +59,7 @@ a {
   display: none; /* initial state */
   font-weight: bold;
   font-size: 14px;
+  padding: 12px 0;
 }
 
 #score .change {

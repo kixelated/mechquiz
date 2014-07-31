@@ -103,7 +103,7 @@
       if (correct) {
         answered = true;
 
-        dom.delay(1500).fadeOut(500, dom.remove);
+        dom.delay(1500).fadeOut(500, function() { dom.remove() });
         next();
       } else {
         var remaining = $(".option:not(.incorrect)", dom).length;
@@ -112,7 +112,7 @@
           answered = true;
           $(".option.answer", dom).addClass("correct");
 
-          dom.delay(2500).fadeOut(500, dom.remove);
+          dom.delay(2500).fadeOut(500, function() { dom.remove() });
           next();
         }
       }
@@ -123,7 +123,7 @@
     $(".difficulty").click(function(event) {
       var diff = $(event.target).data("value");
 
-      $("#instructions").fadeOut(500);
+      $("#instructions, #difficulties").fadeOut(500);
       $("#score").slideDown(500);
 
       activeQuestions = _.filter(questions, function(q) { return q.difficulty == diff });
