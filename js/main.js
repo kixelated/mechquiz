@@ -3,7 +3,10 @@
   var score = 0, combo = 0;
 
   var finish = function() {
-    $("#score").delay(2000).animate({ "line-height": "300px" }, 500);
+    setTimeout(function() {
+      $("#difficulties").slideDown(500);
+      $("#spacer").slideDown(500);
+    }, 2000);
   };
 
   var next = function() {
@@ -123,7 +126,9 @@
     $(".difficulty").click(function(event) {
       var diff = $(event.target).data("value");
 
-      $("#instructions, #difficulties").fadeOut(500);
+      $("#instructions").fadeOut(500);
+      $("#difficulties").slideUp(500);
+      $("#spacer").slideUp(500);
       $("#score").slideDown(500);
 
       activeQuestions = _.filter(questions, function(q) { return q.difficulty == diff });
