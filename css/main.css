@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #111;
   color: #ccc;
@@ -42,19 +46,26 @@ h1 {
 }
 
 .keeper {
-  width: 616px; /* 664 - 48 */
-  height: 314px; /* 362 - 48 */
+  width: 664px;
+  height: 362px;
 
   background: url('../img/quiz/keeper.png');
   box-shadow: 0 0 64px #000;
 
   margin: 0 auto;
-  padding: 24px;
+  padding: 14px;
 
   text-align: center;
   font-size: 12px;
 
   overflow: hidden;
+}
+
+.keeper .wrapper {
+
+  overflow: hidden;
+  height: 100%;
+  padding: 6px;
 }
 
 #difficulties, #score {

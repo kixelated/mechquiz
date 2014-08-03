@@ -15,53 +15,55 @@
     <h1>Dota 2: Advanced Mechanics Quiz</h1>
 
     <div class="keeper">
-      <div id="difficulties" class="animate slideDown">
-        <div class="easy difficulty" data-target="2">Easy</div>
-        <div class="normal difficulty" data-target="3">Normal</div>
-        <div class="unfair difficulty" data-target="5">Unfair</div>
-      </div>
+      <div class="wrapper">
+        <div id="difficulties" class="animate slideDown">
+          <div class="easy difficulty" data-target="2">Easy</div>
+          <div class="normal difficulty" data-target="3">Normal</div>
+          <div class="unfair difficulty" data-target="5">Unfair</div>
+        </div>
 
-      <div id="spacer" class="animate slideUp"></div>
+        <div id="spacer" class="animate slideUp"></div>
 
-      <div id="score" class="animate slideUp">
-        Score: <span class="value">0</span> <span class="change"></span>
-      </div>
+        <div id="score" class="animate slideUp">
+          Score: <span class="value">0</span> <span class="change"></span>
+        </div>
 
-      <div id="stats" class="animate slideUp">
-        <span class="correct"></span>
-        <span class="incorrect"></span>
-      </div>
+        <div id="stats" class="animate slideUp">
+          <span class="correct"></span>
+          <span class="incorrect"></span>
+        </div>
 
-      <div id="questions"></div>
+        <div id="questions"></div>
 
-      <div id="instructions" class="animate fadeIn">
-        <p>
-          This quiz will test your knowledge of item and spell interactions in Dota 2. Each question will focus on two items or spells, and you must choose which of the two takes priority.
-        </p>
+        <div id="instructions" class="animate fadeIn">
+          <p>
+            This quiz will test your knowledge of item and spell interactions in Dota 2. Each question will focus on two items or spells, and you must choose which of the two takes priority.
+          </p>
 
-        <p>
-          For example:
+          <p>
+            For example:
 
-          <div class="example question">
-            <div class="option item icon correct" style="background-image: url('img/item/black_king_bar.png')"></div>
-            <div class="option ability icon incorrect" style="background-image: url('img/ability/sven_storm_bolt.png')"></div>
-            <div class="explanation">
-              Storm Bolt is blocked by Black King Bar.
+            <div class="example question">
+              <div class="option item icon correct" style="background-image: url('img/item/black_king_bar.png')"></div>
+              <div class="option ability icon incorrect" style="background-image: url('img/ability/sven_storm_bolt.png')"></div>
+              <div class="explanation">
+                Storm Bolt is blocked by Black King Bar.
+              </div>
             </div>
-          </div>
 
-          <div class="example question">
-            <div class="option item icon incorrect" style="background-image: url('img/item/black_king_bar.png')"></div>
-            <div class="option ability icon correct" style="background-image: url('img/ability/doom_bringer_doom.png')"></div>
-            <div class="explanation">
-              Doom completely bypasses Black King Bar.
+            <div class="example question">
+              <div class="option item icon incorrect" style="background-image: url('img/item/black_king_bar.png')"></div>
+              <div class="option ability icon correct" style="background-image: url('img/ability/doom_bringer_doom.png')"></div>
+              <div class="explanation">
+                Doom completely bypasses Black King Bar.
+              </div>
             </div>
-          </div>
-        </p>
+          </p>
 
-        <p>
-          Abilities are cast from left-to-right if the order matters. If you think a question is wrong, please test it in-game and post an issue or fix on <a href="https://github.com/qpingu/mechquiz">the GitHub page</a>.
-        </p>
+          <p>
+            Abilities are cast from left-to-right if the order matters. If you think a question is wrong, please test it in-game and post an issue or fix on <a href="https://github.com/qpingu/mechquiz">the GitHub page</a>.
+          </p>
+        </div>
       </div>
     </div>
 
