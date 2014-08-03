@@ -73,10 +73,9 @@ h1 {
 }
 
 .keeper .wrapper {
-
   overflow: hidden;
   height: 100%;
-  padding: 6px;
+  padding: 8px;
 }
 
 #difficulties, #score {
