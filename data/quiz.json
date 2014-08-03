@@ -134,7 +134,7 @@
       "a": "item/black_king_bar"
     }, {
       "q": [ "item/black_king_bar", "ability/antimage_mana_void", "text/damage_blocked_only", "text/stun_blocked_only" ],
-      "a": "text/stun_blocked_only"
+      "a": "text/damage_blocked_only"
     }, {
       "q": [ "item/black_king_bar", "ability/axe_berserkers_call" ],
       "a": "ability/axe_berserkers_call"
