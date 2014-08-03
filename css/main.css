@@ -33,6 +33,15 @@ h1 {
   overflow: hidden;
 }
 
+.animateOff {
+  transition: opacity 0s, height 0s;
+  -webkit-transition: opacity 0s, height 0s;
+  -moz-transition: opacity 0s, height 0s;
+  -o-transition: opacity 0s, height 0s;
+
+  overflow: hidden;
+}
+
 .animate.slideUp {
   height: 0 !important;
 }
@@ -123,9 +132,7 @@ h1 {
 }
 
 #score .change {
-  opacity: 0; /* initial state */
   width: 46px;
-  display: inline-block;
   text-align: left;
   margin-left: 4px;
 }

@@ -118,12 +118,19 @@
         $("#score .value").text(score);
 
         var change = $("#score .change");
-        change.css({ opacity: 1 }).animate({ opacity: 0 }, speed);
+        change.toggleClass("animate animageOff");
+        change.toggleClass("fadeIn fadeOut");
+
         change.toggleClass("positive", correct);
         change.toggleClass("negative", !correct);
 
         if (diff > 0) diff = "+" + diff;
         change.text(diff);
+
+        setTimeout(function() {
+          change.toggleClass("animate animageOff");
+          change.toggleClass("fadeIn fadeOut");
+        }, 1);
       }
 
       if (correct) {
