@@ -27,19 +27,19 @@ h1 {
 }
 
 .animate {
-  transition: opacity 1.0s, height 1.0s;
-  -webkit-transition: opacity 1.0s, height 1.0s;
-  -moz-transition: opacity 1.0s, height 1.0s;
-  -o-transition: opacity 1.0s, height 1.0s;
+  -webkit-transition: opacity 1s, height 1s;
+  -moz-transition: opacity 1s, height 1s;
+  -o-transition: opacity 1s, height 1s;
+  transition: opacity 1s, height 1s;
 
   overflow: hidden;
 }
 
 .animateOff {
-  transition: opacity 0s, height 0s;
   -webkit-transition: opacity 0s, height 0s;
   -moz-transition: opacity 0s, height 0s;
   -o-transition: opacity 0s, height 0s;
+  transition: opacity 0s, height 0s;
 
   overflow: hidden;
 }

@@ -39,7 +39,8 @@
 
     var dom = $("<div>").addClass("question animate slideUp");
     dom.prependTo("#questions");
-    setTimeout(function() { dom.toggleClass("slideDown slideUp") }, 1);
+
+    setTimeout(function() { dom.toggleClass("slideUp slideDown"); }, 200);
 
     var textNode;
 
@@ -134,7 +135,7 @@
         setTimeout(function() {
           change.toggleClass("animate animageOff");
           change.toggleClass("fadeIn fadeOut");
-        }, 1);
+        }, 200);
       }
 
       if (correct) {
