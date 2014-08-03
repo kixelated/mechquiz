@@ -2,14 +2,18 @@
   var questions, abilities, items, currentQuestions;
   var score = 0, combo = 0;
   var statsCorrect, statsTotal;
+  var started = false;
 
   var speed = 1000;
 
   var finish = function() {
     setTimeout(function() {
+      started = false;
       $("#spacer, #difficulties").toggleClass("slideUp slideDown");
 
       setTimeout(function() {
+        if (started) return;
+
         $("#stats").toggleClass("slideUp slideDown");
         $("#stats .correct").text(statsCorrect);
         $("#stats .incorrect").text(statsTotal - statsCorrect);
@@ -150,13 +154,16 @@
   };
 
   var start = function(target) {
+    if (started) return;
+    started = true;
+
     $("#stats, #spacer, #difficulties").addClass("slideUp").removeClass("slideDown");
     $("#score").addClass("slideDown").removeClass("slideUp");
     $("#instructions").addClass("fadeOut").delay(speed).queue(function() { this.remove() });
 
     currentQuestions = _.sortBy(questions, function(question) {
-      return Math.abs(target - question.q.length) + Math.random();
-    }).slice(0, 50);
+      return Math.abs(target - question.q.length) + 2.0 * Math.random();
+    }).slice(0, 40);
     currentQuestions = _.shuffle(currentQuestions);
 
     statsCorrect = 0;
