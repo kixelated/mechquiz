@@ -3,20 +3,28 @@
   var score = 0, combo = 0;
   var statsCorrect, statsTotal;
 
-  var speed = 500;
+  var speed = 1000;
 
   var finish = function() {
     setTimeout(function() {
-      $("#remaining").slideUp(speed);
-      $("#difficulties, #spacer").slideDown(speed);
+      $("#spacer, #difficulties").toggleClass("slideUp slideDown");
 
-      $("#stats .correct").text(statsCorrect);
-      $("#stats .incorrect").text(statsTotal - statsCorrect);
-      $("#stats").delay(speed * 2).slideDown(speed);
-    }, 2000);
+      setTimeout(function() {
+        $("#stats").toggleClass("slideUp slideDown");
+        $("#stats .correct").text(statsCorrect);
+        $("#stats .incorrect").text(statsTotal - statsCorrect);
+      }, speed * 2);
+    }, speed * 3);
   };
 
-  var next = function() {
+  var next = function(prev, delay) {
+    if (prev) {
+      setTimeout(function() {
+        prev.addClass("fadeOut");
+        prev.delay(speed * 2).queue(function() { prev.remove() });
+      }, delay);
+    }
+
     var question = currentQuestions.pop();
     if (!question) {
       return finish();
@@ -25,8 +33,9 @@
     var remaining = currentQuestions.length;
     $("#remaining .value").text(remaining);
 
-    var dom = $("<div>").addClass("question").prependTo("#questions");
-    dom.slideUp().slideDown(speed);
+    var dom = $("<div>").addClass("question animate slideUp");
+    dom.prependTo("#questions");
+    setTimeout(function() { dom.toggleClass("slideDown slideUp") }, 1);
 
     var textNode;
 
@@ -120,8 +129,7 @@
       if (correct) {
         answered = true;
 
-        dom.delay(speed * 3).fadeOut(speed, function() { dom.remove() });
-        next();
+        next(dom, 2 * speed);
       } else {
         var remaining = $(".option:not(.incorrect)", dom).length;
 
@@ -129,17 +137,16 @@
           answered = true;
           $(".option.answer", dom).addClass("correct");
 
-          dom.delay(speed * 5).fadeOut(speed, function() { dom.remove() });
-          next();
+          next(dom, 4 * speed);
         }
       }
     });
   };
 
   var start = function(target) {
-    $("#instructions").fadeOut(speed);
-    $("#difficulties, #spacer, #stats").slideUp(speed);
-    $("#score").slideDown(speed);
+    $("#stats, #spacer, #difficulties").addClass("slideUp").removeClass("slideDown");
+    $("#score").addClass("slideDown").removeClass("slideUp");
+    $("#instructions").addClass("fadeOut").delay(speed).queue(function() { this.remove() });
 
     currentQuestions = _.sortBy(questions, function(question) {
       return Math.abs(target - question.q.length) + Math.random();

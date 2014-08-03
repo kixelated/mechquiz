@@ -20,6 +20,27 @@ h1 {
   font-size: 14px;
 }
 
+.animate {
+  transition: opacity 1.0s, height 1.0s;
+  -webkit-transition: opacity 1.0s, height 1.0s;
+  -moz-transition: opacity 1.0s, height 1.0s;
+  -o-transition: opacity 1.0s, height 1.0s;
+
+  overflow: hidden;
+}
+
+.animate.slideUp {
+  height: 0 !important;
+}
+
+.animate.fadeIn {
+  opacity: 1.0 !important;
+}
+
+.animate.fadeOut {
+  opacity: 0.0 !important;
+}
+
 .keeper {
   width: 616px; /* 664 - 48 */
   height: 314px; /* 362 - 48 */
@@ -36,6 +57,11 @@ h1 {
   overflow: hidden;
 }
 
+#difficulties, #score {
+  height: 48px;
+  line-height: 48px;
+}
+
 .difficulty {
   display: inline-block;
 
@@ -46,10 +72,11 @@ h1 {
   text-align: center;
   font-size: 18px;
 
-  margin: 6px;
-  padding: 4px 12px;
+  margin: 0 6px;
+  padding: 0 12px;
 
   cursor: pointer;
+  line-height: 32px;
 
   box-shadow: 1px 1px 3px 1px #000;
 }
@@ -67,24 +94,26 @@ h1 {
 }
 
 #spacer {
-  height: 80px;
-  display: none;
+  height: 72px;
 }
 
 #score, #stats {
-  display: none; /* initial state */
   font-weight: bold;
   font-size: 14px;
 }
 
 #score {
   padding-left: 50px;
-  margin: 8px;
+}
+
+#stats {
+  height: 24px;
+  line-height 24px;
 }
 
 #score .change {
   opacity: 0; /* initial state */
-  width: 50px;
+  width: 46px;
   display: inline-block;
   text-align: left;
   margin-left: 4px;
@@ -100,6 +129,7 @@ h1 {
 
 .question {
   margin: 0 auto;
+  height: 100px;
 }
 
 .question > * {
@@ -155,8 +185,9 @@ h1 {
 }
 
 .option.text {
-  padding: 4px 8px;
+  padding: 4px 20px;
   text-transform: capitalize;
+  position: relative;
 }
 
 .option:hover {
@@ -172,10 +203,12 @@ h1 {
   content: '✔';
   color: #0A0;
   text-shadow: 1px 0px 0px #060;
+  padding-right: 4px;
 }
 
 .correct.text:before {
-  padding-right: 6px;
+  position: absolute;
+  left: 6px;
 }
 
 .incorrect, .incorrect:hover {
@@ -190,7 +223,8 @@ h1 {
 }
 
 .incorrect.text:before {
-  padding-right: 6px;
+  position: absolute;
+  left: 6px;
 }
 
 .explanation {
