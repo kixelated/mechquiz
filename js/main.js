@@ -187,6 +187,8 @@
 
       // Verify that all of the questions are valid.
       if (location.hostname == "localhost") {
+        console.log(questions.length + " questions total");
+
         /*
         var whitelist = [ "item/diffusal_blade", "item/black_king_bar", "item/blink", "item/sphere", "item/invis_sword", "item/ghost", "ability/slark_pounce", "ability/doom_bringer_doom", "ability/faceless_void_chronosphere", "ability/abaddon_aphotic_shield" ];
 

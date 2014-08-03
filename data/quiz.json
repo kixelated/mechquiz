@@ -229,8 +229,8 @@
       "q": [ "item/black_king_bar", "ability/gyrocopter_call_down", "text/damage_only", "text/slow_only" ],
       "a": "text/slow_only"
     }, {
-      "q": [ "item/black_king_bar", "ability/huskar_life_break", "text/damage_only", "text/slow_only" ],
-      "a": "text/slow_only"
+      "q": [ "item/black_king_bar", "ability/huskar_life_break", "text/no_damage", "text/no_self_damage", "text/no_slow" ],
+      "a": "text/no_damage"
     }, {
       "q": [ "item/black_king_bar", "ability/juggernaut_omni_slash", "text/damage_only", "text/stun_only" ],
       "a": "ability/juggernaut_omni_slash"
@@ -376,8 +376,8 @@
       "q": [ "item/black_king_bar", "ability/templar_assassin_psionic_trap" ],
       "a": "item/black_king_bar"
     }, {
-      "q": [ "item/black_king_bar", "ability/terrorblade_sunder" ],
-      "a": "ability/terrorblade_sunder"
+      "q": [ "item/black_king_bar", "ability/terrorblade_sunder", "text/terrorblade_only", "text/enemy_only" ],
+      "a": "text/terrorblade_only"
     }, {
       "q": [ "item/black_king_bar", "ability/tidehunter_anchor_smash", "text/damage_only", "text/debuff_only" ],
       "a": "ability/tidehunter_anchor_smash"
@@ -706,7 +706,7 @@
       "q": [ "item/sheepstick", "ability/axe_counter_helix" ],
       "a": "ability/axe_counter_helix"
     }, {
-      "q": [ "item/sheepstick", "ability/tidehunter_kraken_shell" ],
+      "q": [ "item/sheepstick", "item/vanguard" ],
       "a": "item/sheepstick"
     }, {
       "q": [ "item/sheepstick", "ability/medusa_mana_shield" ],
@@ -761,7 +761,7 @@
       "a": "ability/skywrath_mage_concussive_shot"
     }, {
       "q": [ "item/sphere", "ability/slark_pounce", "text/damage_only", "text/tether_only" ],
-      "a": "item/sphere"
+      "a": "ability/slark_pounce"
     }, {
       "q": [ "item/sphere", "ability/sniper_assassinate", "text/damage_only", "text/stun_only", "text/sight_only" ],
       "a": "text/sight_only"
