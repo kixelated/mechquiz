@@ -143,8 +143,7 @@
         if (remaining < 2) {
           answered = true;
           $(".option.answer", dom).addClass("correct");
-
-          next(dom, 4 * speed);
+          next(dom, 3 * speed);
         }
       }
     });
