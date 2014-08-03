@@ -1,28 +1,146 @@
 {
-  "questions": [ {
+  "questions": [
+    {
+      "q": [ "ability/doom_bringer_doom", "ability/abaddon_borrowed_time" ],
+      "a": "ability/doom_bringer_doom"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/axe_counter_helix" ],
+      "a": "ability/axe_counter_helix"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/bloodseeker_blood_bath" ],
+      "a": "ability/doom_bringer_doom"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/bloodseeker_thirst", "text/damage_only", "text/speed_only" ],
+      "a": "ability/bloodseeker_thirst"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/bounty_hunter_jinada", "text/crit_only", "text/slow_only" ],
+      "a": "text/slow_only"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/brewmaster_drunken_brawler", "text/crit_only", "text/evasion_only" ],
+      "a": "ability/doom_bringer_doom"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/bristleback_bristleback" ],
+      "a": "ability/doom_bringer_doom"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/faceless_void_backtrack" ],
+      "a": "ability/doom_bringer_doom"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/lycan_shapeshift", "text/crit_only", "text/speed_only" ],
+      "a": "text/speed_only"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/meepo_geostrike", "text/damage_only", "text/slow_only" ],
+      "a": "ability/meepo_geostrike"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/riki_permanent_invisibility" ],
+      "a": "ability/doom_bringer_doom"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/shredder_reactive_armor" ],
+      "a": "ability/shredder_reactive_armor"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/skeleton_king_reincarnation" ],
+      "a": "ability/skeleton_king_reincarnation"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/spirit_breaker_empowering_haste" ],
+      "a": "ability/spirit_breaker_empowering_haste"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/spirit_breaker_greater_bash", "text/damage_only", "text/stun_only" ],
+      "a": "ability/doom_bringer_doom"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/templar_assassin_psi_blades", "text/spill_only", "text/range_only" ],
+      "a": "ability/templar_assassin_psi_blades"
+    }, {
+      "q": [ "ability/doom_bringer_doom", "ability/windrunner_windrun", "text/evasion_only", "text/speed_only" ],
+      "a": "text/speed_only"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/bristleback_bristleback", "text/reduction_only", "text/quills_only" ],
+      "a": "text/reduction_only"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/brewmaster_primal_split" ],
+      "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/death_prophet_exorcism" ],
+      "a": "ability/death_prophet_exorcism"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/enchantress_untouchable" ],
+      "a": "ability/enchantress_untouchable"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/juggernaut_omni_slash", "text/damage_only", "text/stun_only" ],
+      "a": "ability/juggernaut_omni_slash"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/riki_permanent_invisibility" ],
+      "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/shadow_shaman_mass_serpent_ward" ],
+      "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/slark_shadow_dance" ],
+      "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/storm_spirit_ball_lightning" ],
+      "a": "ability/storm_spirit_ball_lightning"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/tidehunter_kraken_shell" ],
+      "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/undying_tombstone", "text/spawn_only" ],
+      "a": "text/spawn_only"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/venomancer_plague_ward" ],
+      "a": "ability/venomancer_plague_ward"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "ability/witch_doctor_death_ward" ],
+      "a": "ability/witch_doctor_death_ward"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "item/butterfly" ],
+      "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "item/courier" ],
+      "a": "item/courier"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "item/force_staff" ],
+      "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "ability/faceless_void_chronosphere", "item/ghost" ],
+      "a": "item/ghost"
+    }, {
+      "q": [ "ability/slark_pounce", "ability/abaddon_aphotic_shield" ],
+      "a": "ability/slark_pounce"
+    }, {
+      "q": [ "ability/slark_pounce", "ability/antimage_blink" ],
+      "a": "ability/antimage_blink"
+    }, {
+      "q": [ "ability/slark_pounce", "ability/mirana_leap" ],
+      "a": "ability/slark_pounce"
+    }, {
+      "q": [ "ability/slark_pounce", "ability/phoenix_icarus_dive" ],
+      "a": "ability/phoenix_icarus_dive"
+    }, {
+      "q": [ "ability/slark_pounce", "item/force_staff" ],
+      "a": "ability/slark_pounce"
+    }, {
+      "q": [ "ability/slark_pounce", "item/invis_sword" ],
+      "a": "ability/slark_pounce"
+    }, {
+      "q": [ "ability/alchemist_unstable_concoction", "item/black_king_bar", "text/damage_only", "text/stun_only" ],
+      "a": "text/damage_only"
+    }, {
       "q": [ "item/black_king_bar", "ability/alchemist_acid_spray", "text/damage_only", "text/debuff_only" ],
       "a": "ability/alchemist_acid_spray"
     }, {
       "q": [ "item/black_king_bar", "ability/ancient_apparition_ice_blast", "text/no_damage", "text/no_debuff", "text/no_shatter" ],
       "a": "text/no_damage"
     }, {
-      "q": [ "item/black_king_bar", "ability/axe_berserkers_call" ],
-      "a": "ability/axe_berserkers_call"
-    }, {
       "q": [ "item/black_king_bar", "ability/antimage_mana_break" ],
       "a": "item/black_king_bar"
-    }, {
-      "q": [ "item/black_king_bar", "ability/life_stealer_feast" ],
-      "a": "ability/life_stealer_feast"
     }, {
       "q": [ "item/black_king_bar", "ability/antimage_mana_void", "text/damage_only", "text/stun_only" ],
       "a": "text/stun_only"
     }, {
+      "q": [ "item/black_king_bar", "ability/axe_berserkers_call" ],
+      "a": "ability/axe_berserkers_call"
+    }, {
       "q": [ "item/black_king_bar", "ability/axe_culling_blade", "text/fatal_only" ],
       "a": "text/fatal_only"
-    }, {
-      "q": [ "item/sphere", "ability/axe_culling_blade", "text/fatal_only" ],
-      "a": "item/sphere"
     }, {
       "q": [ "item/black_king_bar", "ability/bane_fiends_grip", "text/no_damage", "text/no_mana_drain", "text/no_stun" ],
       "a": "text/no_damage"
@@ -30,38 +148,35 @@
       "q": [ "item/black_king_bar", "ability/batrider_flaming_lasso" ],
       "a": "ability/batrider_flaming_lasso"
     }, {
-      "q": [ "item/black_king_bar", "ability/beastmaster_wild_axes" ],
-      "a": "ability/beastmaster_wild_axes"
-    }, {
       "q": [ "item/black_king_bar", "ability/beastmaster_primal_roar", "text/damage_only", "text/stun_only", "text/slow_only" ],
       "a": "text/stun_only"
+    }, {
+      "q": [ "item/black_king_bar", "ability/beastmaster_wild_axes" ],
+      "a": "ability/beastmaster_wild_axes"
     }, {
       "q": [ "item/black_king_bar", "ability/bloodseeker_rupture" ],
       "a": "ability/bloodseeker_rupture"
     }, {
-      "q": [ "item/black_king_bar", "ability/bounty_hunter_track" ],
-      "a": "ability/bounty_hunter_track"
-    }, {
       "q": [ "item/black_king_bar", "ability/bounty_hunter_jinada", "text/damage_only", "text/slow_only" ],
       "a": "ability/bounty_hunter_jinada"
+    }, {
+      "q": [ "item/black_king_bar", "ability/bounty_hunter_track" ],
+      "a": "ability/bounty_hunter_track"
     }, {
       "q": [ "item/black_king_bar", "ability/brewmaster_thunder_clap", "text/damage_only", "text/slow_only" ],
       "a": "item/black_king_bar"
     }, {
-      "q": [ "item/black_king_bar", "ability/bristleback_quill_spray" ],
+      "q": [ "item/black_king_bar", "ability/bristleback_quill_spray", "text/damage_only", "text/debuff_only" ],
       "a": "ability/bristleback_quill_spray"
     }, {
       "q": [ "item/black_king_bar", "ability/centaur_stampede", "text/damage_only", "text/slow_only" ],
       "a": "item/black_king_bar"
     }, {
-      "q": [ "item/black_king_bar", "ability/clinkz_searing_arrows" ],
-      "a": "ability/clinkz_searing_arrows"
-    }, {
-      "q": [ "item/black_king_bar", "ability/rattletrap_hookshot", "text/damage_only", "text/stun_only" ],
-      "a": "text/stun_only"
-    }, {
       "q": [ "item/black_king_bar", "ability/chaos_knight_reality_rift", "text/damage_only", "text/pull_only" ],
       "a": "item/black_king_bar"
+    }, {
+      "q": [ "item/black_king_bar", "ability/clinkz_searing_arrows" ],
+      "a": "ability/clinkz_searing_arrows"
     }, {
       "q": [ "item/black_king_bar", "ability/crystal_maiden_freezing_field", "text/damage_only", "text/slow_only" ],
       "a": "item/black_king_bar"
@@ -80,9 +195,6 @@
     }, {
       "q": [ "item/black_king_bar", "ability/doom_bringer_doom", "text/damage_only", "text/disable_only" ],
       "a": "ability/doom_bringer_doom"
-    }, {
-      "q": [ "item/sphere", "ability/doom_bringer_doom" ],
-      "a": "item/sphere"
     }, {
       "q": [ "item/black_king_bar", "ability/earth_spirit_rolling_boulder", "text/damage_only", "text/slow_only" ],
       "a": "text/slow_only"
@@ -107,6 +219,12 @@
     }, {
       "q": [ "item/black_king_bar", "ability/faceless_void_chronosphere" ],
       "a": "ability/faceless_void_chronosphere"
+    }, {
+      "q": [ "item/black_king_bar", "ability/faceless_void_time_lock", "text/damage_only", "text/stun_only" ],
+      "a": "text/stun_only"
+    }, {
+      "q": [ "item/black_king_bar", "ability/furion_wrath_of_nature" ],
+      "a": "item/black_king_bar"
     }, {
       "q": [ "item/black_king_bar", "ability/gyrocopter_call_down", "text/damage_only", "text/slow_only" ],
       "a": "text/slow_only"
@@ -138,6 +256,9 @@
       "q": [ "item/black_king_bar", "ability/life_stealer_consume" ],
       "a": "item/black_king_bar"
     }, {
+      "q": [ "item/black_king_bar", "ability/life_stealer_feast" ],
+      "a": "ability/life_stealer_feast"
+    }, {
       "q": [ "item/black_king_bar", "ability/life_stealer_open_wounds", "text/slow_only", "text/lifesteal_only" ],
       "a": "item/black_king_bar"
     }, {
@@ -156,17 +277,20 @@
       "q": [ "item/black_king_bar", "ability/medusa_stone_gaze", "text/slow_only", "text/stun_only" ],
       "a": "ability/medusa_stone_gaze"
     }, {
+      "q": [ "item/black_king_bar", "ability/meepo_geostrike", "text/damage_only", "text/slow_only" ],
+      "a": "text/slow_only"
+    }, {
       "q": [ "item/black_king_bar", "ability/naga_siren_ensnare" ],
       "a": "ability/naga_siren_ensnare"
     }, {
       "q": [ "item/black_king_bar", "ability/naga_siren_song_of_the_siren" ],
       "a": "item/black_king_bar"
     }, {
-      "q": [ "item/black_king_bar", "ability/furion_wrath_of_nature" ],
-      "a": "item/black_king_bar"
-    }, {
       "q": [ "item/black_king_bar", "ability/necrolyte_reapers_scythe", "text/damage_only", "text/stun_only" ],
       "a": "text/stun_only"
+    }, {
+      "q": [ "item/black_king_bar", "ability/nevermore_requiem", "text/no_damage", "text/no_slow", "text/no_debuff" ],
+      "a": "text/no_damage"
     }, {
       "q": [ "item/black_king_bar", "ability/obsidian_destroyer_sanity_eclipse", "text/damage_only", "text/mana_only" ],
       "a": "text/mana_only"
@@ -192,6 +316,9 @@
       "q": [ "item/black_king_bar", "ability/queenofpain_sonic_wave" ],
       "a": "item/black_king_bar"
     }, {
+      "q": [ "item/black_king_bar", "ability/rattletrap_hookshot", "text/damage_only", "text/stun_only" ],
+      "a": "text/stun_only"
+    }, {
       "q": [ "item/black_king_bar", "ability/razor_eye_of_the_storm", "text/no_damage", "text/no_debuff" ],
       "a": "ability/razor_eye_of_the_storm"
     }, {
@@ -207,23 +334,29 @@
       "q": [ "item/black_king_bar", "ability/shadow_demon_demonic_purge", "text/damage_only", "text/slow_only" ],
       "a": "text/slow_only"
     }, {
-      "q": [ "item/black_king_bar", "ability/nevermore_requiem", "text/no_damage", "text/no_slow", "text/no_debuff" ],
-      "a": "text/no_damage"
+      "q": [ "item/black_king_bar", "ability/shredder_chakram", "text/damage_only", "text/slow_only" ],
+      "a": "item/black_king_bar"
+    }, {
+      "q": [ "item/black_king_bar", "ability/shredder_whirling_death", "text/damage_only", "text/debuff_only" ],
+      "a": "text/debuff_only"
     }, {
       "q": [ "item/black_king_bar", "ability/silencer_global_silence" ],
       "a": "ability/silencer_global_silence"
     }, {
+      "q": [ "item/black_king_bar", "ability/skeleton_king_reincarnation" ],
+      "a": "item/black_king_bar"
+    }, {
       "q": [ "item/black_king_bar", "ability/skywrath_mage_mystic_flare" ],
       "a": "item/black_king_bar"
+    }, {
+      "q": [ "item/black_king_bar", "ability/slardar_amplify_damage" ],
+      "a": "ability/slardar_amplify_damage"
     }, {
       "q": [ "item/black_king_bar", "ability/slardar_bash", "text/damage_only", "text/stun_only" ],
       "a": "ability/slardar_bash"
     }, {
-      "q": [ "item/black_king_bar", "ability/faceless_void_time_lock", "text/damage_only", "text/stun_only" ],
-      "a": "text/stun_only"
-    }, {
-      "q": [ "item/black_king_bar", "ability/slardar_amplify_damage" ],
-      "a": "ability/slardar_amplify_damage"
+      "q": [ "item/black_king_bar", "ability/slardar_slithereen_crush", "text/damage_only", "text/stun_only" ],
+      "a": "text/damage_only"
     }, {
       "q": [ "item/black_king_bar", "ability/slark_pounce", "text/damage_only", "text/tether_only" ],
       "a": "item/black_king_bar"
@@ -252,9 +385,6 @@
       "q": [ "item/black_king_bar", "ability/tidehunter_ravage", "text/damage_only", "text/stun_only" ],
       "a": "item/black_king_bar"
     }, {
-      "q": [ "item/black_king_bar", "ability/shredder_chakram", "text/damage_only", "text/slow_only" ],
-      "a": "item/black_king_bar"
-    }, {
       "q": [ "item/black_king_bar", "ability/tinker_laser", "text/damage_only", "text/debuff_only" ],
       "a": "item/black_king_bar"
     }, {
@@ -279,17 +409,11 @@
       "q": [ "item/black_king_bar", "ability/venomancer_poison_nova" ],
       "a": "item/black_king_bar"
     }, {
-      "q": [ "item/black_king_bar", "item/skadi" ],
-      "a": "item/skadi"
-    }, {
-      "q": [ "item/black_king_bar", "item/monkey_king_bar", "text/damage_only", "text/stun_only" ],
-      "a": "item/black_king_bar"
+      "q": [ "item/black_king_bar", "ability/venomancer_poison_sting", "text/damage_only", "text/slow_only" ],
+      "a": "text/slow_only"
     }, {
       "q": [ "item/black_king_bar", "ability/viper_viper_strike", "text/damage_only", "text/slow_only" ],
       "a": "text/slow_only"
-    }, {
-      "q": [ "item/sphere", "ability/viper_viper_strike", "text/damage_only", "text/slow_only" ],
-      "a": "item/sphere"
     }, {
       "q": [ "item/black_king_bar", "ability/warlock_rain_of_chaos", "text/damage_only", "text/stun_only" ],
       "a": "text/stun_only"
@@ -297,16 +421,31 @@
       "q": [ "item/black_king_bar", "ability/witch_doctor_death_ward" ],
       "a": "ability/witch_doctor_death_ward"
     }, {
-      "q": [ "item/black_king_bar", "ability/skeleton_king_reincarnation" ],
+      "q": [ "item/black_king_bar", "ability/zuus_thundergods_wrath", "text/damage_only", "text/vision_only" ],
+      "a": "text/vision_only"
+    }, {
+      "q": [ "item/black_king_bar", "item/monkey_king_bar", "text/damage_only", "text/stun_only" ],
       "a": "item/black_king_bar"
     }, {
       "q": [ "item/black_king_bar", "item/sange" ],
       "a": "item/sange"
     }, {
-      "q": [ "item/black_king_bar", "ability/zuus_thundergods_wrath", "text/damage_only", "text/vision_only" ],
-      "a": "text/vision_only"
+      "q": [ "item/black_king_bar", "item/sheepstick" ],
+      "a": "item/black_king_bar"
     }, {
-      "q": [ "ability/sven_storm_bolt", "item/blink" ],
+      "q": [ "item/black_king_bar", "item/skadi" ],
+      "a": "item/skadi"
+    }, {
+      "q": [ "ability/alchemist_unstable_concoction", "item/blink" ],
+      "a": "ability/alchemist_unstable_concoction"
+    }, {
+      "q": [ "ability/brewmaster_drunken_haze", "item/blink" ],
+      "a": "ability/brewmaster_drunken_haze"
+    }, {
+      "q": [ "ability/chaos_knight_chaos_bolt", "item/blink" ],
+      "a": "ability/chaos_knight_chaos_bolt"
+    }, {
+      "q": [ "ability/dazzle_poison_touch", "item/blink" ],
       "a": "item/blink"
     }, {
       "q": [ "ability/gyrocopter_homing_missile", "item/blink" ],
@@ -315,29 +454,14 @@
       "q": [ "ability/huskar_life_break", "item/blink" ],
       "a": "ability/huskar_life_break"
     }, {
-      "q": [ "ability/sniper_assassinate", "item/blink" ],
-      "a": "item/blink"
-    }, {
       "q": [ "ability/lich_chain_frost", "item/blink" ],
       "a": "ability/lich_chain_frost"
     }, {
-      "q": [ "ability/tinker_heat_seeking_missile", "item/blink" ],
-      "a": "item/blink"
+      "q": [ "ability/medusa_mystic_snake", "item/blink" ],
+      "a": "ability/medusa_mystic_snake"
     }, {
-      "q": [ "ability/windrunner_shackleshot", "item/blink" ],
-      "a": "ability/windrunner_shackleshot"
-    }, {
-      "q": [ "ability/viper_viper_strike", "item/blink" ],
-      "a": "item/blink"
-    }, {
-      "q": [ "ability/visage_soul_assumption", "item/blink" ],
-      "a": "ability/visage_soul_assumption"
-    }, {
-      "q": [ "ability/witch_doctor_paralyzing_cask", "item/blink" ],
-      "a": "ability/witch_doctor_paralyzing_cask"
-    }, {
-      "q": [ "ability/spirit_breaker_charge_of_darkness", "item/blink" ],
-      "a": "ability/spirit_breaker_charge_of_darkness"
+      "q": [ "ability/naga_siren_ensnare", "item/blink" ],
+      "a": "ability/naga_siren_ensnare"
     }, {
       "q": [ "ability/necrolyte_death_pulse", "item/blink" ],
       "a": "ability/necrolyte_death_pulse"
@@ -345,7 +469,7 @@
       "q": [ "ability/phantom_assassin_stifling_dagger", "item/blink" ],
       "a": "item/blink"
     }, {
-      "q": [ "ability/skeleton_king_hellfire_blast", "item/blink" ],
+      "q": [ "ability/phantom_lancer_spirit_lance", "item/blink" ],
       "a": "item/blink"
     }, {
       "q": [ "ability/queenofpain_scream_of_pain", "item/blink" ],
@@ -354,101 +478,74 @@
       "q": [ "ability/queenofpain_shadow_strike", "item/blink" ],
       "a": "item/blink"
     }, {
-      "q": [ "ability/phantom_lancer_spirit_lance", "item/blink" ],
+      "q": [ "ability/skeleton_king_hellfire_blast", "item/blink" ],
       "a": "item/blink"
-    }, {
-      "q": [ "ability/naga_siren_ensnare", "item/blink" ],
-      "a": "ability/naga_siren_ensnare"
-    }, {
-      "q": [ "ability/medusa_mystic_snake", "item/blink" ],
-      "a": "ability/medusa_mystic_snake"
-    }, {
-      "q": [ "ability/alchemist_unstable_concoction", "item/blink" ],
-      "a": "ability/alchemist_unstable_concoction"
-    }, {
-      "q": [ "ability/alchemist_unstable_concoction", "item/black_king_bar", "text/damage_only", "text/stun_only" ],
-      "a": "text/damage_only"
-    }, {
-      "q": [ "ability/chaos_knight_chaos_bolt", "item/blink" ],
-      "a": "ability/chaos_knight_chaos_bolt"
-    }, {
-      "q": [ "ability/dazzle_poison_touch", "item/blink" ],
-      "a": "item/blink"
-    }, {
-      "q": [ "ability/brewmaster_drunken_haze", "item/blink" ],
-      "a": "ability/brewmaster_drunken_haze"
-    }, {
-      "q": [ "ability/skywrath_mage_concussive_shot", "item/blink" ],
-      "a": "ability/skywrath_mage_concussive_shot"
     }, {
       "q": [ "ability/skywrath_mage_arcane_bolt", "item/blink" ],
       "a": "ability/skywrath_mage_arcane_bolt"
     }, {
-      "q": [ "item/sphere", "ability/earthshaker_fissure", "text/damage_only", "text/stun_only" ],
-      "a": "item/sphere"
-    }, {
-      "q": [ "item/sphere", "ability/mirana_arrow", "text/damage_only", "text/stun_only" ],
-      "a": "ability/mirana_arrow"
-    }, {
-      "q": [ "item/sphere", "ability/sandking_burrowstrike", "text/damage_only", "text/stun_only" ],
-      "a": "item/sphere"
-    }, {
-      "q": [ "item/sphere", "ability/lion_impale", "text/damage_only", "text/stun_only" ],
-      "a": "item/sphere"
-    }, {
-      "q": [ "item/sphere", "ability/nyx_assassin_impale", "text/damage_only", "text/stun_only" ],
-      "a": "ability/nyx_assassin_impale"
-    }, {
-      "q": [ "item/sphere", "ability/juggernaut_omni_slash", "text/bounce_only", "text/damage_only", "text/stun_only" ],
-      "a": "text/stun_only"
-    }, {
-      "q": [ "item/sphere", "ability/lich_chain_frost", "text/bounce_only", "text/damage_only", "text/stun_only" ],
-      "a": "text/bounce_only"
-    }, {
-      "q": [ "item/sphere", "ability/witch_doctor_paralyzing_cask", "text/bounce_only", "text/damage_only", "text/stun_only" ],
-      "a": "text/bounce_only"
-    }, {
-      "q": [ "item/sphere", "ability/rubick_fade_bolt", "text/bounce_only" ],
-      "a": "item/sphere"
-    }, {
-      "q": [ "item/sphere", "ability/skywrath_mage_concussive_shot", "text/damage_only", "text/slow_only" ],
+      "q": [ "ability/skywrath_mage_concussive_shot", "item/blink" ],
       "a": "ability/skywrath_mage_concussive_shot"
     }, {
-      "q": [ "item/sphere", "item/basher" ],
-      "a": "item/basher"
+      "q": [ "ability/sniper_assassinate", "item/blink" ],
+      "a": "item/blink"
     }, {
-      "q": [ "item/sphere", "ability/slark_pounce" ],
-      "a": "item/sphere"
+      "q": [ "ability/spirit_breaker_charge_of_darkness", "item/blink" ],
+      "a": "ability/spirit_breaker_charge_of_darkness"
     }, {
-      "q": [ "item/sphere", "ability/sniper_assassinate", "text/damage_only", "text/stun_only", "text/sight_only"],
-      "a": "text/sight_only"
+      "q": [ "ability/sven_storm_bolt", "item/blink" ],
+      "a": "item/blink"
     }, {
-      "q": [ "item/sphere", "ability/enchantress_impetus" ],
-      "a": "ability/enchantress_impetus"
+      "q": [ "ability/tinker_heat_seeking_missile", "item/blink" ],
+      "a": "item/blink"
     }, {
-      "q": [ "ability/tidehunter_anchor_smash", "item/diffusal_blade" ],
-      "a": "item/diffusal_blade"
+      "q": [ "ability/viper_viper_strike", "item/blink" ],
+      "a": "item/blink"
     }, {
-      "q": [ "ability/treant_leech_seed", "item/diffusal_blade" ],
-      "a": "item/diffusal_blade"
+      "q": [ "ability/visage_soul_assumption", "item/blink" ],
+      "a": "ability/visage_soul_assumption"
     }, {
-      "q": [ "item/black_king_bar", "ability/shredder_whirling_death", "text/damage_only", "text/debuff_only" ],
-      "a": "text/debuff_only"
+      "q": [ "ability/windrunner_shackleshot", "item/blink" ],
+      "a": "ability/windrunner_shackleshot"
     }, {
-      "q": [ "item/black_king_bar", "ability/slardar_slithereen_crush", "text/damage_only", "text/stun_only" ],
-      "a": "text/damage_only"
+      "q": [ "ability/witch_doctor_paralyzing_cask", "item/blink" ],
+      "a": "ability/witch_doctor_paralyzing_cask"
     }, {
       "q": [ "ability/abaddon_aphotic_shield", "item/diffusal_blade" ],
       "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/ursa_enrage", "item/diffusal_blade" ],
+      "q": [ "ability/bane_enfeeble", "item/diffusal_blade" ],
+      "a": "ability/bane_enfeeble"
+    }, {
+      "q": [ "ability/bloodseeker_bloodrage", "item/diffusal_blade" ],
+      "a": "ability/bloodseeker_bloodrage"
+    }, {
+      "q": [ "ability/broodmother_insatiable_hunger", "item/diffusal_blade" ],
       "a": "item/diffusal_blade"
     }, {
-      "q": [ "item/dust", "item/diffusal_blade" ],
+      "q": [ "ability/clinkz_wind_walk", "item/diffusal_blade", "text/invis_only", "text/speed_only" ],
+      "a": "text/invis_only"
+    }, {
+      "q": [ "ability/crystal_maiden_frostbite", "item/diffusal_blade" ],
       "a": "item/diffusal_blade"
     }, {
-      "q": [ "item/black_king_bar", "ability/venomancer_poison_sting", "text/damage_only", "text/slow_only" ],
-      "a": "text/slow_only"
+      "q": [ "ability/dark_seer_surge", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
+    }, {
+      "q": [ "ability/dazzle_weave", "item/diffusal_blade" ],
+      "a": "ability/dazzle_weave"
+    }, {
+      "q": [ "ability/enchantress_natures_attendants", "item/diffusal_blade" ],
+      "a": "ability/enchantress_natures_attendants"
+    }, {
+      "q": [ "ability/kunkka_x_marks_the_spot", "item/diffusal_blade" ],
+      "a": "ability/kunkka_x_marks_the_spot"
+    }, {
+      "q": [ "ability/lich_frost_armor", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
+    }, {
+      "q": [ "ability/life_stealer_rage", "item/diffusal_blade" ],
+      "a": "ability/life_stealer_rage"
     }, {
       "q": [ "ability/meepo_earthbind", "item/diffusal_blade" ],
       "a": "item/diffusal_blade"
@@ -456,136 +553,121 @@
       "q": [ "ability/naga_siren_ensnare", "item/diffusal_blade" ],
       "a": "ability/naga_siren_ensnare"
     }, {
-      "q": [ "ability/crystal_maiden_frostbite", "item/diffusal_blade" ],
-      "a": "item/diffusal_blade"
-    }, {
-      "q": [ "ability/shadow_shaman_voodoo", "item/diffusal_blade" ],
-      "a": "item/diffusal_blade"
-    }, {
-      "q": [ "ability/lich_frost_armor", "item/diffusal_blade" ],
-      "a": "item/diffusal_blade"
-    }, {
-      "q": [ "item/orchid", "item/diffusal_blade" ],
-      "a": "item/diffusal_blade"
-    }, {
-      "q": [ "ability/dark_seer_surge", "item/diffusal_blade" ],
+      "q": [ "ability/omniknight_guardian_angel", "item/diffusal_blade" ],
       "a": "item/diffusal_blade"
     }, {
       "q": [ "ability/shredder_whirling_death", "item/diffusal_blade" ],
       "a": "ability/shredder_whirling_death"
     }, {
-      "q": [ "ability/clinkz_wind_walk", "item/diffusal_blade" ],
-      "a": "ability/clinkz_wind_walk"
+      "q": [ "ability/sven_gods_strength", "item/diffusal_blade" ],
+      "a": "ability/sven_gods_strength"
     }, {
-      "q": [ "ability/bloodseeker_bloodrage", "item/diffusal_blade" ],
-      "a": "ability/bloodseeker_bloodrage"
-    }, {
-      "q": [ "ability/dazzle_weave", "item/diffusal_blade" ],
-      "a": "ability/dazzle_weave"
-    }, {
-      "q": [ "ability/broodmother_insatiable_hunger", "item/diffusal_blade" ],
+      "q": [ "ability/tidehunter_anchor_smash", "item/diffusal_blade" ],
       "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/skeleton_king_reincarnation" ],
-      "a": "ability/skeleton_king_reincarnation"
+      "q": [ "ability/treant_leech_seed", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/abaddon_borrowed_time" ],
-      "a": "ability/doom_bringer_doom"
+      "q": [ "ability/ursa_enrage", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/axe_counter_helix" ],
-      "a": "ability/axe_counter_helix"
+      "q": [ "ability/warlock_rain_of_chaos", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/bristleback_bristleback" ],
-      "a": "ability/doom_bringer_doom"
+      "q": [ "ability/windrunner_windrun", "item/diffusal_blade", "text/evasion_only", "text/speed_only" ],
+      "a": "ability/windrunner_windrun"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/lycan_shapeshift",  "text/crit_only", "text/speed_only" ],
-      "a": "text/speed_only"
+      "q": [ "item/abyssal_blade", "item/diffusal_blade" ],
+      "a": "item/abyssal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/bounty_hunter_jinada", "text/crit_only", "text/slow_only" ],
-      "a": "text/slow_only"
+      "q": [ "item/dust", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/windrunner_windrun", "text/evasion_only", "text/speed_only" ],
-      "a": "text/speed_only"
+      "q": [ "item/ghost", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/spirit_breaker_empowering_haste" ],
-      "a": "ability/spirit_breaker_empowering_haste"
+      "q": [ "item/orchid", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/faceless_void_backtrack" ],
-      "a": "ability/doom_bringer_doom"
+      "q": [ "item/sheepstick", "item/diffusal_blade" ],
+      "a": "item/diffusal_blade"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/riki_permanent_invisibility" ],
-      "a": "ability/doom_bringer_doom"
+      "q": [ "item/ghost", "ability/alchemist_unstable_concoction", "text/damage_only", "text/stun_only" ],
+      "a": "text/stun_only"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/bloodseeker_thirst", "text/damage_only", "text/speed_only" ],
-      "a": "ability/bloodseeker_thirst"
+      "q": [ "item/ghost", "ability/beastmaster_primal_roar", "text/no_damage", "text/no_stun" ],
+      "a": "ability/beastmaster_primal_roar"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/bloodseeker_blood_bath" ],
-      "a": "ability/doom_bringer_doom"
+      "q": [ "item/ghost", "ability/beastmaster_wild_axes" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/shredder_reactive_armor" ],
-      "a": "ability/shredder_reactive_armor"
+      "q": [ "item/ghost", "ability/bloodseeker_rupture" ],
+      "a": "ability/bloodseeker_rupture"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/meepo_geostrike", "text/damage_only", "text/slow_only" ],
-      "a": "ability/meepo_geostrike"
+      "q": [ "item/ghost", "ability/dazzle_poison_touch", "text/no_damage", "text/no_slow", "text/no_stun" ],
+      "a": "text/no_damage"
     }, {
-      "q": [ "item/black_king_bar", "ability/meepo_geostrike", "text/damage_only", "text/slow_only" ],
-      "a": "text/slow_only"
+      "q": [ "item/ghost", "ability/death_prophet_exorcism" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/brewmaster_drunken_brawler", "text/crit_only", "text/evasion_only"  ],
-      "a": "ability/doom_bringer_doom"
+      "q": [ "item/ghost", "ability/ember_spirit_sleight_of_fist" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/spirit_breaker_greater_bash", "text/damage_only", "text/stun_only"  ],
-      "a": "ability/doom_bringer_doom"
+      "q": [ "item/ghost", "ability/gyrocopter_homing_missile", "text/damage_only", "text/stun_only" ],
+      "a": "ability/gyrocopter_homing_missile"
     }, {
-      "q": [ "ability/doom_bringer_doom", "ability/templar_assassin_psi_blades", "text/spill_only", "text/range_only"  ],
-      "a": "ability/templar_assassin_psi_blades"
+      "q": [ "item/ghost", "ability/juggernaut_blade_fury" ],
+      "a": "ability/juggernaut_blade_fury"
     }, {
-      "q": [ "item/invis_sword", "ability/meepo_earthbind" ],
-      "a": "item/invis_sword"
+      "q": [ "item/ghost", "ability/juggernaut_omni_slash", "text/damage_only", "text/stun_only" ],
+      "a": "text/stun_only"
     }, {
-      "q": [ "item/invis_sword", "ability/faceless_void_chronosphere" ],
-      "a": "ability/faceless_void_chronosphere"
+      "q": [ "item/ghost", "ability/meepo_earthbind" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/mirana_leap" ],
-      "a": "ability/faceless_void_chronosphere"
+      "q": [ "item/ghost", "ability/morphling_adaptive_strike" ],
+      "a": "ability/morphling_adaptive_strike"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/morphling_waveform" ],
-      "a": "ability/morphling_waveform"
+      "q": [ "item/ghost", "ability/naga_siren_ensnare" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/storm_spirit_ball_lightning" ],
-      "a": "ability/storm_spirit_ball_lightning"
+      "q": [ "item/ghost", "ability/phantom_assassin_stifling_dagger" ],
+      "a": "ability/phantom_assassin_stifling_dagger"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/death_prophet_exorcism" ],
-      "a": "ability/death_prophet_exorcism"
+      "q": [ "item/ghost", "ability/pudge_meat_hook" ],
+      "a": "ability/pudge_meat_hook"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/brewmaster_primal_split" ],
-      "a": "ability/faceless_void_chronosphere"
+      "q": [ "item/ghost", "ability/slardar_slithereen_crush", "text/damage_only", "text/stun_only" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/shadow_shaman_mass_serpent_ward" ],
-      "a": "ability/faceless_void_chronosphere"
+      "q": [ "item/ghost", "ability/spirit_breaker_charge_of_darkness", "text/damage_only", "text/stun_only" ],
+      "a": "ability/spirit_breaker_charge_of_darkness"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/witch_doctor_death_ward" ],
-      "a": "ability/faceless_void_chronosphere"
+      "q": [ "item/ghost", "ability/tusk_walrus_punch", "text/damage_only", "text/stun_only" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/undying_tombstone", "text/spawn_only" ],
-      "a": "text/spawn_only"
+      "q": [ "item/ghost", "ability/witch_doctor_death_ward" ],
+      "a": "item/ghost"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/venomancer_plague_ward" ],
-      "a": "ability/venomancer_plague_ward"
+      "q": [ "item/ghost", "item/abyssal_blade" ],
+      "a": "item/abyssal_blade"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "item/butterfly" ],
-      "a": "ability/faceless_void_chronosphere"
+      "q": [ "ability/crystal_maiden_frostbite", "item/invis_sword" ],
+      "a": "ability/crystal_maiden_frostbite"
     }, {
-      "q": [ "ability/faceless_void_chronosphere", "ability/juggernaut_omni_slash" ],
-      "a": "ability/juggernaut_omni_slash"
-    }, {
-      "q": [ "item/invis_sword", "ability/puck_dream_coil" ],
-      "a": "item/invis_sword"
+      "q": [ "ability/lich_chain_frost", "item/invis_sword" ],
+      "a": "ability/lich_chain_frost"
     }, {
       "q": [ "ability/necrolyte_death_pulse", "item/invis_sword" ],
       "a": "ability/necrolyte_death_pulse"
     }, {
-      "q": [ "item/invis_sword", "ability/treant_overgrowth" ],
+      "q": [ "ability/sniper_assassinate", "item/invis_sword" ],
+      "a": "ability/sniper_assassinate"
+    }, {
+      "q": [ "ability/spectre_spectral_dagger", "item/invis_sword" ],
+      "a": "ability/spectre_spectral_dagger"
+    }, {
+      "q": [ "ability/sven_storm_bolt", "item/invis_sword" ],
       "a": "item/invis_sword"
     }, {
       "q": [ "ability/visage_soul_assumption", "item/invis_sword" ],
@@ -594,41 +676,107 @@
       "q": [ "ability/witch_doctor_paralyzing_cask", "item/invis_sword" ],
       "a": "ability/witch_doctor_paralyzing_cask"
     }, {
-      "q": [ "ability/slark_pounce", "ability/mirana_leap" ],
-      "a": "ability/slark_pounce"
+      "q": [ "item/invis_sword", "ability/faceless_void_chronosphere" ],
+      "a": "ability/faceless_void_chronosphere"
     }, {
-      "q": [ "ability/slark_pounce", "ability/antimage_blink" ],
-      "a": "ability/antimage_blink"
+      "q": [ "item/invis_sword", "ability/meepo_earthbind" ],
+      "a": "item/invis_sword"
     }, {
-      "q": [ "ability/slark_pounce", "ability/abaddon_aphotic_shield" ],
-      "a": "ability/slark_pounce"
+      "q": [ "item/invis_sword", "ability/puck_dream_coil" ],
+      "a": "item/invis_sword"
     }, {
-      "q": [ "ability/slark_pounce", "item/force_staff" ],
-      "a": "ability/slark_pounce"
+      "q": [ "item/invis_sword", "ability/rattletrap_battery_assault" ],
+      "a": "item/invis_sword"
     }, {
-      "q": [ "ability/shredder_whirling_death", "ability/abaddon_aphotic_shield" ],
-      "a": "ability/shredder_whirling_death"
+      "q": [ "item/invis_sword", "ability/treant_overgrowth" ],
+      "a": "item/invis_sword"
     }, {
-      "q": [ "ability/disruptor_glimpse", "ability/abaddon_aphotic_shield" ],
-      "a": "ability/disruptor_glimpse"
+      "q": [ "item/invis_sword", "ability/undying_tombstone", "text/spawn_only" ],
+      "a": "item/invis_sword"
     }, {
-      "q": [ "ability/sven_storm_bolt", "ability/slark_pounce" ],
-      "a": "ability/slark_pounce"
+      "q": [ "item/invis_sword", "ability/zuus_thundergods_wrath", "text/damage_only", "text/reveal_only" ],
+      "a": "text/reveal_only"
     }, {
-      "q": [ "item/ghost", "ability/naga_siren_ensnare" ],
-      "a": "item/ghost"
+      "q": [ "item/gem", "item/sheepstick" ],
+      "a": "item/sheepstick"
     }, {
-      "q": [ "item/ghost", "ability/alchemist_unstable_concoction", "text/damage_only", "text/stun_only" ],
+      "q": [ "item/sheepstick", "ability/antimage_spell_shield" ],
+      "a": "ability/antimage_spell_shield"
+    }, {
+      "q": [ "item/sheepstick", "ability/axe_counter_helix" ],
+      "a": "ability/axe_counter_helix"
+    }, {
+      "q": [ "item/sheepstick", "ability/tidehunter_kraken_shell" ],
+      "a": "item/sheepstick"
+    }, {
+      "q": [ "item/sheepstick", "ability/medusa_mana_shield" ],
+      "a": "ability/medusa_mana_shield"
+    }, {
+      "q": [ "item/sheepstick", "ability/skeleton_king_reincarnation" ],
+      "a": "ability/skeleton_king_reincarnation"
+    }, {
+      "q": [ "item/sheepstick", "ability/tiny_craggy_exterior" ],
+      "a": "ability/tiny_craggy_exterior"
+    }, {
+      "q": [ "item/sheepstick", "item/butterfly" ],
+      "a": "item/sheepstick"
+    }, {
+      "q": [ "item/sheepstick", "item/radiance" ],
+      "a": "item/sheepstick"
+    }, {
+      "q": [ "item/sphere", "ability/axe_culling_blade", "text/fatal_only" ],
+      "a": "item/sphere"
+    }, {
+      "q": [ "item/sphere", "ability/doom_bringer_doom" ],
+      "a": "item/sphere"
+    }, {
+      "q": [ "item/sphere", "ability/earthshaker_fissure", "text/damage_only", "text/stun_only" ],
+      "a": "item/sphere"
+    }, {
+      "q": [ "item/sphere", "ability/enchantress_impetus" ],
+      "a": "ability/enchantress_impetus"
+    }, {
+      "q": [ "item/sphere", "ability/juggernaut_omni_slash", "text/bounce_only", "text/damage_only", "text/stun_only" ],
       "a": "text/stun_only"
     }, {
-      "q": [ "item/ghost", "ability/spirit_breaker_charge_of_darkness", "text/damage_only", "text/stun_only" ],
-      "a": "ability/spirit_breaker_charge_of_darkness"
+      "q": [ "item/sphere", "ability/lich_chain_frost", "text/bounce_only", "text/damage_only", "text/stun_only" ],
+      "a": "text/bounce_only"
     }, {
-      "q": [ "item/ghost", "ability/dazzle_poison_touch", "text/no_damage", "text/no_slow", "text/no_stun" ],
-      "a": "text/no_damage"
+      "q": [ "item/sphere", "ability/lion_impale", "text/damage_only", "text/stun_only" ],
+      "a": "item/sphere"
     }, {
-      "q": [ "item/orchid", "ability/riki_permanent_invisibility" ],
-      "a": "item/orchid"
+      "q": [ "item/sphere", "ability/mirana_arrow", "text/damage_only", "text/stun_only" ],
+      "a": "ability/mirana_arrow"
+    }, {
+      "q": [ "item/sphere", "ability/nyx_assassin_impale", "text/damage_only", "text/stun_only" ],
+      "a": "ability/nyx_assassin_impale"
+    }, {
+      "q": [ "item/sphere", "ability/rubick_fade_bolt", "text/bounce_only" ],
+      "a": "item/sphere"
+    }, {
+      "q": [ "item/sphere", "ability/sandking_burrowstrike", "text/damage_only", "text/stun_only" ],
+      "a": "item/sphere"
+    }, {
+      "q": [ "item/sphere", "ability/skywrath_mage_concussive_shot", "text/damage_only", "text/slow_only" ],
+      "a": "ability/skywrath_mage_concussive_shot"
+    }, {
+      "q": [ "item/sphere", "ability/slark_pounce", "text/damage_only", "text/tether_only" ],
+      "a": "item/sphere"
+    }, {
+      "q": [ "item/sphere", "ability/sniper_assassinate", "text/damage_only", "text/stun_only", "text/sight_only" ],
+      "a": "text/sight_only"
+    }, {
+      "q": [ "item/sphere", "ability/viper_viper_strike", "text/damage_only", "text/slow_only" ],
+      "a": "item/sphere"
+    }, {
+      "q": [ "item/sphere", "ability/witch_doctor_paralyzing_cask", "text/bounce_only", "text/damage_only", "text/stun_only" ],
+      "a": "text/bounce_only"
+    }, {
+      "q": [ "item/sphere", "item/basher" ],
+      "a": "item/basher"
+    }, {
+      "q": [ "item/sphere", "item/sheepstick" ],
+      "a": "item/sphere"
     }
   ]
 }

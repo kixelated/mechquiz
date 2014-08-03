@@ -180,6 +180,26 @@
 
       // Verify that all of the questions are valid.
       if (location.hostname == "localhost") {
+        /*
+        var whitelist = [ "item/diffusal_blade", "item/black_king_bar", "item/blink", "item/sphere", "item/invis_sword", "item/ghost", "ability/slark_pounce", "ability/doom_bringer_doom", "ability/faceless_void_chronosphere", "ability/abaddon_aphotic_shield" ];
+
+        var sorted = _.sortBy(questions, function(q) {
+          var primary = whitelist.indexOf(q.q[0]);
+          var temp = whitelist.indexOf(q.q[1]);
+
+          if (primary == -1 || (temp != -1 && temp < primary)) primary = temp;
+          if (primary == -1) {
+            console.log("no primary for " + q.q[0] + " " + q.q[1]);
+            return;
+          }
+
+          return whitelist[primary] + " " + q.q[0] + " " + q.q[1];
+        });
+
+        sorted = { "questions": sorted };
+        console.log(JSON.stringify(sorted, null, "  "));
+        */
+
         _.each(questions, function(question) {
           var answered = false;
 
