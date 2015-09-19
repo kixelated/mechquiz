@@ -89,7 +89,7 @@
       "a": "ability/venomancer_plague_ward"
     }, {
       "q": [ "ability/faceless_void_chronosphere", "ability/witch_doctor_death_ward" ],
-      "a": "ability/witch_doctor_death_ward"
+      "a": "ability/faceless_void_chronosphere"
     }, {
       "q": [ "ability/faceless_void_chronosphere", "item/butterfly" ],
       "a": "ability/faceless_void_chronosphere"
@@ -389,7 +389,7 @@
       "a": "item/black_king_bar"
     }, {
       "q": [ "item/black_king_bar", "ability/tinker_march_of_the_machines" ],
-      "a": "ability/tinker_march_of_the_machines"
+      "a": "item/black_king_bar"
     }, {
       "q": [ "item/black_king_bar", "ability/tiny_toss", "text/damage_blocked_only", "text/throw_blocked_only" ],
       "a": "text/damage_blocked_only"
